@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "packId": "mathmon-grade4-official-pack-v1",
+  "packName": "4학년 2학기 공식 후보 매스몬팩",
+  "styleId": "mathmon-v1-anime-sticker",
+  "status": "active-approved",
+  "usedBy": ["4-2-1-1-mathmon-fraction-piece-workshop", "4-2-1-2-mathmon-fraction-add-bridge", "4-2-1-3-mathmon-fraction-sub-garden"],
+  "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+  "canvas": "768x768",
+  "rawCanvas": "1254x1254",
+  "generationStandard": "monster-generation-run-v1",
+  "characters": [
+    {
+      "slot": 1,
+      "id": "mathmon-grade4-01-sugar-glider",
+      "nameKo": "하늘주머니몬",
+      "speciesKey": "sugar glider",
+      "status": "active-approved",
+      "usedBy": ["4-2-1-1-mathmon-fraction-piece-workshop"],
+      "png": "png/mathmon-grade4-01-sugar-glider.png",
+      "webp": "webp/mathmon-grade4-01-sugar-glider.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-01-sugar-glider-source.png",
+      "sha256": {
+        "raw": "35844653d21675c64b95bc889b309141a5c7095124318e0cdd6dea80d82d6928",
+        "png": "4935dd84ae9db0060449ed3e9d46a89a94d1baf465bf08321dbcbab7e59bc5b5",
+        "webp": "82e93e620c83bfe25e9d2b80a2359a7c0a5d822557cf3a94adb2cd2f23b29e5a"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-01-sugar-glider:484deb0f477a",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-01-sugar-glider/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "sugar glider",
+        "formKey": "sugar glider upright full-body",
+        "silhouetteSignature": "sugar glider distinct silhouette"
+      }
+    },
+    {
+      "slot": 2,
+      "id": "mathmon-grade4-02-bison",
+      "nameKo": "들소몬",
+      "speciesKey": "bison",
+      "status": "active-approved",
+      "usedBy": ["4-2-1-2-mathmon-fraction-add-bridge"],
+      "png": "png/mathmon-grade4-02-bison.png",
+      "webp": "webp/mathmon-grade4-02-bison.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-02-bison-source.png",
+      "sha256": {
+        "raw": "af122ef58d21bb5970102a26929c7a43d4d9a0d66aabf9a07fe30ca1e4900870",
+        "png": "44884192d35325e4750298d34f64befc1e9277b2f1359390fa0163c7d79f35ee",
+        "webp": "bfd9a58e0c3a2863871236980ba367f36c8e3d1f69754edf17815510bfc4d0f9"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-02-bison:2d05fcac44fa",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-02-bison/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "bison",
+        "formKey": "bison upright full-body",
+        "silhouetteSignature": "bison distinct silhouette"
+      }
+    },
+    {
+      "slot": 3,
+      "id": "mathmon-grade4-03-tapir",
+      "nameKo": "동글맥몬",
+      "speciesKey": "tapir",
+      "status": "active-approved",
+      "usedBy": ["4-2-1-3-mathmon-fraction-sub-garden"],
+      "png": "png/mathmon-grade4-03-tapir.png",
+      "webp": "webp/mathmon-grade4-03-tapir.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-03-tapir-source.png",
+      "sha256": {
+        "raw": "eb94013aec6f0ba74c95891a1892ea993cdb88565e4e252a6f58229a2592af1f",
+        "png": "083927660e3b5c6b1e4bfb7edf1f303bf2df57a9b82a58ed8534b22a050b4796",
+        "webp": "777610914f1cef284f1c553b19da698c07ace0a1b8e58947ad20c3d1a44cd944"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-03-tapir:00e0000cdcfe",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-03-tapir/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "tapir",
+        "formKey": "tapir distinct full-body",
+        "silhouetteSignature": "tapir distinct silhouette"
+      }
+    },
+    {
+      "slot": 4,
+      "id": "mathmon-grade4-04-kingfisher",
+      "nameKo": "물총새몬",
+      "speciesKey": "kingfisher",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-04-kingfisher.png",
+      "webp": "webp/mathmon-grade4-04-kingfisher.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-04-kingfisher-source.png",
+      "sha256": {
+        "raw": "d7feeaac2cdc08a3033ef5e14726b398fcd80a799c5772c684791f0dcbfa571c",
+        "png": "62c75bf163daf1ffd5fdeccc26b0daebdad12e9bb1cba86972e6fd70ef9be778",
+        "webp": "8873b596541b6fac9633981a627eb5a05ac5011674bbf8f08b55a10c9fd87b07"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-04-kingfisher:c1597a6e955e",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-04-kingfisher/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "kingfisher",
+        "formKey": "kingfisher distinct full-body",
+        "silhouetteSignature": "kingfisher distinct silhouette"
+      }
+    },
+    {
+      "slot": 5,
+      "id": "mathmon-grade4-05-flamingo",
+      "nameKo": "홍학몬",
+      "speciesKey": "flamingo",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-05-flamingo.png",
+      "webp": "webp/mathmon-grade4-05-flamingo.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-05-flamingo-source.png",
+      "sha256": {
+        "raw": "cf1dc0d26a5fcf301e838e60404a1e0d18c4f8f6e1909f8a0b4d72349f1f5474",
+        "png": "b332b7ce2b1477aed40ccdd844562e1a175ef13217ca70b204507534f520950a",
+        "webp": "9fb11a64fcdb72b0969698dd1bd0efb82dd7ed71e3066789927af7463a63418e"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-05-flamingo:44d4eb67e869",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-05-flamingo/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "flamingo",
+        "formKey": "flamingo upright full-body",
+        "silhouetteSignature": "flamingo distinct silhouette"
+      }
+    },
+    {
+      "slot": 6,
+      "id": "mathmon-grade4-06-gecko",
+      "nameKo": "별발도마뱀몬",
+      "speciesKey": "gecko",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-06-gecko.png",
+      "webp": "webp/mathmon-grade4-06-gecko.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-06-gecko-source.png",
+      "sha256": {
+        "raw": "72e739a5cacd0cdd527f190c4c86af2a7cf4632c8ce1725af8f6fe8b5c7b2211",
+        "png": "1f06016f9e163aa76831748bfb52a0ccc2c8f5dc6c40f3b9828a4f35e0373a9c",
+        "webp": "8a0627b3aba133b14bbf2d4e86d9c48f1fc05969ba31109c03e38a49931c428f"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-06-gecko:0ae4e91bb875",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-06-gecko/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "gecko",
+        "formKey": "gecko distinct full-body",
+        "silhouetteSignature": "gecko distinct silhouette"
+      }
+    },
+    {
+      "slot": 7,
+      "id": "mathmon-grade4-07-narwhal",
+      "nameKo": "별뿔고래몬",
+      "speciesKey": "narwhal",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-07-narwhal.png",
+      "webp": "webp/mathmon-grade4-07-narwhal.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-07-narwhal-source.png",
+      "sha256": {
+        "raw": "3b13106e27ea221fada1a269e6447af37e07697cf2352f5f4ff08b9c4e80f3b3",
+        "png": "2fca74e9e5a55aedfed17c029f2dafa75496ea7f864afb0b16fbe85552def321",
+        "webp": "fcdd37a977876bc6dba618c40c309a61e4446e4f72dc8900aa5f2c76a70c479b"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-07-narwhal:326c0fc4e176",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-07-narwhal/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "narwhal",
+        "formKey": "narwhal upright full-body",
+        "silhouetteSignature": "narwhal distinct silhouette"
+      }
+    },
+    {
+      "slot": 8,
+      "id": "mathmon-grade4-08-cassowary",
+      "nameKo": "화식조몬",
+      "speciesKey": "cassowary",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-08-cassowary.png",
+      "webp": "webp/mathmon-grade4-08-cassowary.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-08-cassowary-source.png",
+      "sha256": {
+        "raw": "8d2119fa263d4e275b4c4726aa73f602e35a3391cdb7b2b959e695b6a428fd9f",
+        "png": "bc2480cd5ca662a7df759193aac6814cb6d1fbde4b719b0a06412e81a3f5d0ee",
+        "webp": "da770d0f02d139685cee3a14bb6f7f5775d641dedaf3f20033a79102a0e0243f"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-08-cassowary:214694017475",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-08-cassowary/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "cassowary",
+        "formKey": "cassowary distinct full-body",
+        "silhouetteSignature": "cassowary distinct silhouette"
+      }
+    },
+    {
+      "slot": 9,
+      "id": "mathmon-grade4-09-giant-anteater",
+      "nameKo": "긴꼬리개미핥기몬",
+      "speciesKey": "giant anteater",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-09-giant-anteater.png",
+      "webp": "webp/mathmon-grade4-09-giant-anteater.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-09-giant-anteater-source.png",
+      "sha256": {
+        "raw": "ad1905ca4ec50972dfbd447888969e64ca48ec7edd6bb60127920b4584838b9e",
+        "png": "1637398807ac983710825f8c1aeffb00127c8ce26855cdcf755993dec25fa80b",
+        "webp": "063726c8010e2ba9ab321cb80f1cf69b78f92b5f7a503d1d277f3e6100f61d64"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-09-giant-anteater:771531e4c797",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-09-giant-anteater/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "giant anteater",
+        "formKey": "giant anteater distinct full-body",
+        "silhouetteSignature": "giant anteater distinct silhouette"
+      }
+    },
+    {
+      "slot": 10,
+      "id": "mathmon-grade4-10-okapi",
+      "nameKo": "줄무늬오카피몬",
+      "speciesKey": "okapi",
+      "status": "active-approved",
+      "usedBy": [],
+      "png": "png/mathmon-grade4-10-okapi.png",
+      "webp": "webp/mathmon-grade4-10-okapi.webp",
+      "rawChromakey": "raw-chromakey/mathmon-grade4-10-okapi-source.png",
+      "sha256": {
+        "raw": "6c4d267f937959c2571c3327cc916c76cfae7b6e88363a9af46213d094dd5eed",
+        "png": "b8788f2adebca8be6285373412e1cf9ff496677db891f8b8d24e0f208a1c96c6",
+        "webp": "ffbb1324475a8685a19a04c54bf7678532149519be50729862db2848b16e13d4"
+      },
+      "governance": {
+        "generationRunId": "generation:mathmon:mathmon-grade4-10-okapi:8414e7cd0ef1",
+        "generationRunPath": "_shared/monster-governance/generation-runs/mathmon-grade4-10-okapi/generation-run.json",
+        "approvalId": "approval:mathmon-grade4-official-pack-v1:20260829",
+        "speciesKey": "okapi",
+        "formKey": "okapi distinct full-body",
+        "silhouetteSignature": "okapi distinct silhouette"
+      }
+    }
+  ],
+  "rosterCount": 10
+}

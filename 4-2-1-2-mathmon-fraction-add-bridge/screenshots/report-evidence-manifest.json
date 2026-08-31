@@ -1,0 +1,830 @@
+{
+  "standard": "report-current-screen-evidence-v3",
+  "lesson": "4-2-1-2-mathmon-fraction-add-bridge",
+  "generatedAt": "2026-08-31T05:50:38.065Z",
+  "indexSha256": "8a3e0f69e1fb4b4c5fec9f2975937fdeb12878d245525e234073f9e5e690fcb1",
+  "sourceScreenshotsCommitted": false,
+  "sourceScreenshotsRetention": "ephemeral-local-cache",
+  "qaReceipt": "screenshots/mathmon-browser-qa-receipt.json",
+  "viewportPlan": {
+    "standard": "mathmon-qa-viewport-plan-v2",
+    "registeredCount": 3,
+    "executionCount": 3,
+    "deduplicatedCount": 0,
+    "targetedExecutionCount": 0,
+    "expandedDuplicates": false,
+    "registered": [
+      {
+        "name": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "behaviorKeys": []
+      }
+    ],
+    "executions": [
+      {
+        "name": "desktop",
+        "canonicalName": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "regressionNames": [
+          "desktop"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "tablet-landscape",
+        "canonicalName": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "regressionNames": [
+          "tablet-landscape"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "canonicalName": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "regressionNames": [
+          "reported-design-feedback-1079x842"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      }
+    ]
+  },
+  "fingerprints": {
+    "lessonRuntime": {
+      "sha256": "720a688714661154e74b5017285076566e85d36b2d6a4e78e47bb347359e699a",
+      "files": [
+        "4-2-1-2-mathmon-fraction-add-bridge/cover-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/index.html",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-first-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-golden-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-joined-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-progress-states-contact-sheet.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-rainbow-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-shining-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/play-steady-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-first-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-first-bridge-title.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-first-bridge-title.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-golden-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-golden-bridge-title.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-golden-bridge-title.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-joined-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-joined-bridge-title.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-joined-bridge-title.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-rainbow-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-rainbow-bridge-title.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-rainbow-bridge-title.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-shining-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-shining-bridge-title.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-shining-bridge-title.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-states-contact-sheet.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-steady-bridge-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-steady-bridge-title.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-steady-bridge-title.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/result-title-states-contact-sheet.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-closed-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-jackpot-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-keep-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-loss-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-mega-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-normal-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-special-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/reward-states-contact-sheet.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/title-logo-generated.png",
+        "4-2-1-2-mathmon-fraction-add-bridge/title-logo-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/tutorial-page-1-generated.webp",
+        "4-2-1-2-mathmon-fraction-add-bridge/tutorial-page-2-generated.webp",
+        "_engine/v1/README.md",
+        "_engine/v1/runtime/core.js",
+        "_engine/v1/schemas/lesson.schema.json",
+        "_engine/v1/styles/core.css",
+        "_engine/v1/template.html",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/PLAN.md",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/cover-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/generation-lineage.json",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-first-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-first-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-golden-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-golden-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-joined-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-joined-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-progress-states-contact-sheet.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-rainbow-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-rainbow-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-shining-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-shining-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-steady-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/play-steady-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-first-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-first-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-first-bridge-title-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-first-bridge-title.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-first-bridge-title.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-golden-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-golden-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-golden-bridge-title-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-golden-bridge-title.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-golden-bridge-title.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-joined-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-joined-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-joined-bridge-title-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-joined-bridge-title.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-joined-bridge-title.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-rainbow-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-rainbow-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-rainbow-bridge-title-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-rainbow-bridge-title.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-rainbow-bridge-title.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-shining-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-shining-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-shining-bridge-title-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-shining-bridge-title.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-shining-bridge-title.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-states-contact-sheet.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-steady-bridge-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-steady-bridge-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-steady-bridge-title-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-steady-bridge-title.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-steady-bridge-title.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/result-title-states-contact-sheet.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-closed-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-closed-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-jackpot-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-jackpot-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-keep-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-keep-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-loss-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-loss-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-mega-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-mega-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-normal-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-normal-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-special-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-special-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/reward-states-contact-sheet.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/title-logo-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/title-logo-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/tutorial-page-1-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/tutorial-page-1-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/tutorial-page-2-generated.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/assets/tutorial-page-2-generated.webp",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/cover-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/lesson.css",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/lesson.json",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/model.js",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/play-first-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/play-golden-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/play-joined-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/play-rainbow-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/play-shining-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/play-steady-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/result-first-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/result-golden-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/result-joined-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/result-rainbow-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/result-shining-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/result-steady-bridge-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-closed-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-jackpot-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-keep-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-loss-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-mega-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-normal-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/reward-special-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/title-logo-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/tutorial-page-1-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/tutorial-page-2-source.png",
+        "_lessons/4-2-1-2-mathmon-fraction-add-bridge/view.js",
+        "_lessons/_shared/unit6-data/lesson.css",
+        "_lessons/_shared/unit6-data/model.js",
+        "_lessons/_shared/unit6-data/view.js",
+        "_shared/brand/mathmon-cloud-mark.webp",
+        "_shared/mathmon/cover-start-button/start-button-generated.webp",
+        "_shared/mathmon/top-controls-v2.css",
+        "_shared/result-actions/retry-button-v2-generated.webp",
+        "_shared/result-count/result-correct-0-generated.webp",
+        "_shared/result-count/result-correct-1-generated.webp",
+        "_shared/result-count/result-correct-10-generated.webp",
+        "_shared/result-count/result-correct-2-generated.webp",
+        "_shared/result-count/result-correct-3-generated.webp",
+        "_shared/result-count/result-correct-4-generated.webp",
+        "_shared/result-count/result-correct-5-generated.webp",
+        "_shared/result-count/result-correct-6-generated.webp",
+        "_shared/result-count/result-correct-7-generated.webp",
+        "_shared/result-count/result-correct-8-generated.webp",
+        "_shared/result-count/result-correct-9-generated.webp",
+        "_shared/scoreboard/scoreboard-celebration-bg-generated.webp"
+      ]
+    },
+    "policy": {
+      "sha256": "12755163745e79738c823d22b6574b24e35a18a4245ff70c5d7dd204c43fbaf3",
+      "files": [
+        ".claude/skills/eduitit-mathmon-assets/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/effect-design.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/verification.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/vertical-calculation.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "LESSON_COMMONS.md",
+        "SERIES_CONTRACT.md",
+        "_shared/COMMON_RESOURCE_CONTRACT.md",
+        "_shared/brand/mathmon-brand-mark.json",
+        "_shared/contracts/component-registry.json",
+        "_shared/contracts/mathmon-4-2-official-24-v1.json",
+        "_shared/contracts/mathmon-browser-qa-execution-v2.json",
+        "_shared/contracts/mathmon-component-registry.json",
+        "_shared/contracts/mathmon-top-controls-v2.json",
+        "_shared/contracts/mathmon-unified-reward-v2.json",
+        "_shared/contracts/platform-component-registry.json",
+        "_shared/contracts/production-workflow.json",
+        "_shared/contracts/socialmon-component-registry.json",
+        "_shared/contracts/workspace-management.json",
+        "_shared/mathmon/MATHMON_ASSET_CONTRACT.md",
+        "_shared/monster-governance/MONSTER_UNIVERSE_CONTRACT.md",
+        "_shared/monster-governance/approvals/approvals.json",
+        "_shared/monster-governance/prompt-templates/character-master-v1.txt",
+        "_shared/monster-governance/registry/adoption-baseline.json",
+        "_shared/monster-governance/registry/legacy-species-reservations.json",
+        "_shared/monster-governance/schemas/approval-record.schema.json",
+        "_shared/monster-governance/schemas/candidate-brief.schema.json",
+        "_shared/monster-governance/schemas/character-governance-link.schema.json",
+        "_shared/monster-governance/schemas/generation-run.schema.json",
+        "_shared/monster-governance/schemas/mathmon-character-roster-v1.schema.json",
+        "_shared/monster-governance/schemas/registry.schema.json",
+        "_shared/monster-governance/schemas/socialmon-character-roster-v2.schema.json",
+        "_shared/monster-governance/schemas/socialmon-render-profile-v1.schema.json",
+        "_shared/monster-governance/schemas/subject-profile.schema.json",
+        "_shared/monster-governance/style-core.json",
+        "_shared/monster-governance/subject-profiles/mathmon.json",
+        "_shared/monster-governance/subject-profiles/socialmon-render-clay-vinyl-3d-v1.json",
+        "_shared/monster-governance/subject-profiles/socialmon.json",
+        "_shared/monster-governance/subjects.json"
+      ]
+    },
+    "harness": {
+      "sha256": "164f69fe686699e360c312c834f7e9817e4aa1f33b7847177d7676fd9fa6ea53",
+      "files": [
+        ".codex/hooks.json",
+        ".codex/hooks/mathmon-context.mjs",
+        ".codex/hooks/mathmon-hook-state.mjs",
+        ".codex/hooks/mathmon-stop-gate.mjs",
+        ".codex/hooks/prompt-content.mjs",
+        ".codex/hooks/socialmon-context.mjs",
+        ".codex/hooks/socialmon-hook-state.mjs",
+        ".codex/hooks/socialmon-stop-gate.mjs",
+        "scripts/ai-mart.mjs",
+        "scripts/build-lesson-report-sheets.mjs",
+        "scripts/build-monster-governance.mjs",
+        "scripts/build-monster-review-sheets.mjs",
+        "scripts/check-audio-assets.mjs",
+        "scripts/check-component-registry.mjs",
+        "scripts/check-lesson-contract.mjs",
+        "scripts/check-lesson-report-evidence.mjs",
+        "scripts/check-lesson-visual-contract.mjs",
+        "scripts/check-mathmon-brand-mark.mjs",
+        "scripts/check-mathmon-effect-containment.mjs",
+        "scripts/check-mathmon-preview.mjs",
+        "scripts/check-mathmon-vertical-calculation.mjs",
+        "scripts/check-monster-governance.mjs",
+        "scripts/check-production-workflow.mjs",
+        "scripts/check-ranking-disabled.mjs",
+        "scripts/check-result-panel-adoption.mjs",
+        "scripts/check-rule-consistency.mjs",
+        "scripts/check-run-randomness.mjs",
+        "scripts/check-stage-ratio.mjs",
+        "scripts/check-student-reward-language.mjs",
+        "scripts/compile-monster-prompt.mjs",
+        "scripts/fixtures/component-registry/duplicate-id.json",
+        "scripts/fixtures/component-registry/local-runtime-path.json",
+        "scripts/fixtures/component-registry/missing-compatibility-target.json",
+        "scripts/fixtures/component-registry/valid.json",
+        "scripts/fixtures/monster-governance/candidate-brief-valid.json",
+        "scripts/fixtures/result-panel-containment/axis-correct-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/baked-result-ui.json",
+        "scripts/fixtures/result-panel-containment/duplicate-panel-layer.json",
+        "scripts/fixtures/result-panel-containment/hidden-node-still-rendered.json",
+        "scripts/fixtures/result-panel-containment/panel-too-short.json",
+        "scripts/fixtures/result-panel-containment/retry-hitbox-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/scene-baked-title-retry.json",
+        "scripts/fixtures/result-panel-containment/shared-axis-off-panel-center.json",
+        "scripts/fixtures/result-panel-containment/stage-cropped-at-user-viewport.json",
+        "scripts/fixtures/result-panel-containment/undersized-result-controls.json",
+        "scripts/fixtures/result-panel-containment/valid.json",
+        "scripts/fixtures/result-reward-dominance/internal-metric-leak.json",
+        "scripts/fixtures/result-reward-dominance/oversized-panel-tiny-reward.json",
+        "scripts/fixtures/result-reward-dominance/reward-hidden-by-panel.json",
+        "scripts/fixtures/result-reward-dominance/valid.json",
+        "scripts/fixtures/result-visual-integrity/README.md",
+        "scripts/fixtures/result-visual-integrity/baked-title-cropped.json",
+        "scripts/fixtures/result-visual-integrity/baked-title-missing.json",
+        "scripts/fixtures/result-visual-integrity/cropped-evidence.json",
+        "scripts/fixtures/result-visual-integrity/duplicate-title-layer.json",
+        "scripts/fixtures/result-visual-integrity/title-gap-nine.json",
+        "scripts/fixtures/result-visual-integrity/title-outside-panel.json",
+        "scripts/fixtures/result-visual-integrity/title-overlap-metric.json",
+        "scripts/fixtures/result-visual-integrity/title-too-small.json",
+        "scripts/fixtures/result-visual-integrity/title-yellow-only.json",
+        "scripts/fixtures/result-visual-integrity/valid.json",
+        "scripts/fixtures/student-reward-language/aria-internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/generic-change-label.json",
+        "scripts/fixtures/student-reward-language/internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/missing-change-label.json",
+        "scripts/fixtures/student-reward-language/valid-highest-tier.json",
+        "scripts/fixtures/student-reward-language/valid-semantic-delta.json",
+        "scripts/fixtures/student-reward-language/valid-tier-delta-next.json",
+        "scripts/fixtures/student-reward-language/wrong-highest-tier.json",
+        "scripts/fixtures/student-reward-language/wrong-next-tier.json",
+        "scripts/fixtures/tutorial-poster-contract/css-action-surface.json",
+        "scripts/fixtures/tutorial-poster-contract/css-composed-panel.json",
+        "scripts/fixtures/tutorial-poster-contract/generated-action-hitbox-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/non-generated-poster.json",
+        "scripts/fixtures/tutorial-poster-contract/poster-card-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-generated-actions.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-scene-baked.json",
+        "scripts/fixtures/tutorial-poster-contract/visible-html-overlay.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-purpose-order.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-standard.json",
+        "scripts/lib/component-registry.mjs",
+        "scripts/lib/load-lesson-source-model.mjs",
+        "scripts/lib/mathmon-delivery-gate.mjs",
+        "scripts/lib/mathmon-fast-delivery.mjs",
+        "scripts/lib/mathmon-layout-qa.mjs",
+        "scripts/lib/mathmon-qa-viewports.mjs",
+        "scripts/lib/mathmon-repeated-element-qa.mjs",
+        "scripts/lib/mathmon-top-controls-v2.mjs",
+        "scripts/lib/monster-governance.mjs",
+        "scripts/lib/production-workflow.mjs",
+        "scripts/lib/public-mathmon-paths.mjs",
+        "scripts/lib/result-content-scale-policy.mjs",
+        "scripts/lib/result-internal-metric-policy.mjs",
+        "scripts/lib/result-reward-dominance.mjs",
+        "scripts/lib/run-lesson5-model-qa.mjs",
+        "scripts/lib/run-lesson5-simulation.mjs",
+        "scripts/lib/student-reward-language.mjs",
+        "scripts/lib/tutorial-poster-contract.mjs",
+        "scripts/qa-engine-unit3-circle-pattern-source.mjs",
+        "scripts/qa-engine-unit3-compass-source.mjs",
+        "scripts/qa-engine-unit3-double-bridge-source.mjs",
+        "scripts/qa-engine-unit3-target-source.mjs",
+        "scripts/qa-engine-unit4-pizza-source.mjs",
+        "scripts/qa-engine-unit4-scoop-source.mjs",
+        "scripts/qa-engine-unit4-sorter-source.mjs",
+        "scripts/qa-engine-unit4-tug-source.mjs",
+        "scripts/qa-engine-water-fill-flow.mjs",
+        "scripts/qa-lesson-flow.mjs",
+        "scripts/qa-lesson-model.mjs",
+        "scripts/qa-lesson2-check-lock.mjs",
+        "scripts/qa-lesson2-divide-farm.mjs",
+        "scripts/qa-lesson2-elevator.mjs",
+        "scripts/qa-lesson2-star-pickup.mjs",
+        "scripts/qa-lesson3-map-effects.mjs",
+        "scripts/qa-lesson3-math-model.mjs",
+        "scripts/qa-lesson3-result-fullscene.mjs",
+        "scripts/qa-lesson3-step-feedback.mjs",
+        "scripts/qa-lesson5-drink-order-model.mjs",
+        "scripts/qa-lesson5-flow.mjs",
+        "scripts/qa-lesson5-package-weight-click-guards.mjs",
+        "scripts/qa-lesson5-package-weight-model.mjs",
+        "scripts/qa-lesson5-scale-balance-model.mjs",
+        "scripts/qa-lesson5-water-fill-model.mjs",
+        "scripts/qa-mathmon-audio-smoke.mjs",
+        "scripts/qa-mathmon-layout.mjs",
+        "scripts/qa-mathmon-repeated-element.mjs",
+        "scripts/qa-mathmon-result-sweep.mjs",
+        "scripts/qa-mathmon-reward-percent.mjs",
+        "scripts/qa-result-visual-integrity-fixtures.mjs",
+        "scripts/qa-run-randomness-browser.mjs",
+        "scripts/qa-student-reward-language-browser.mjs",
+        "scripts/qa-unit1-result-screens.mjs",
+        "scripts/qa-unit3-reported-text-regressions.mjs",
+        "scripts/qa-unit6-browser.mjs",
+        "scripts/qa-unit6-data.mjs",
+        "scripts/sync-lesson-report-evidence.mjs",
+        "scripts/test-ai-mart.mjs",
+        "scripts/test-component-registry.mjs",
+        "scripts/test-mathmon-delivery-gate.mjs",
+        "scripts/test-mathmon-fast-delivery.mjs",
+        "scripts/test-mathmon-grade4-decimal-add-charge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-compare-runway-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-sub-dive-phase-a.mjs",
+        "scripts/test-mathmon-grade4-diagonal-laser-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-view.mjs",
+        "scripts/test-mathmon-grade4-graph-choice-studio-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-builder-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-signal-phase-a.mjs",
+        "scripts/test-mathmon-grade4-official-contract.mjs",
+        "scripts/test-mathmon-grade4-point-move-control-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-detector-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-mosaic-phase-a.mjs",
+        "scripts/test-mathmon-grade4-regular-polygon-crown-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-flip-mirror-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-rotate-pattern-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-slide-delivery-phase-a.mjs",
+        "scripts/test-mathmon-grade4-trend-detective-phase-a.mjs",
+        "scripts/test-mathmon-hooks.mjs",
+        "scripts/test-mathmon-layout-qa.mjs",
+        "scripts/test-mathmon-qa-viewports.mjs",
+        "scripts/test-mathmon-repeated-element-qa.mjs",
+        "scripts/test-mathmon-reward-policy.mjs",
+        "scripts/test-mathmon-series-expansion.mjs",
+        "scripts/test-mathmon-top-controls-v2.mjs",
+        "scripts/test-monster-governance.mjs",
+        "scripts/test-production-workflow.mjs",
+        "scripts/test-public-release-grade4.mjs",
+        "scripts/test-result-content-scale-policy.mjs",
+        "scripts/test-result-internal-metric-policy.mjs",
+        "scripts/test-result-panel-containment.mjs",
+        "scripts/test-result-reward-dominance.mjs",
+        "scripts/test-student-reward-language.mjs",
+        "scripts/test-tutorial-poster-contract.mjs",
+        "scripts/test-unit2-three-digit-division.mjs",
+        "scripts/verify-mathmon-delivery.mjs"
+      ]
+    }
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "canonicalName": "desktop",
+      "width": 1280,
+      "height": 800,
+      "dpr": 1,
+      "regressionNames": [
+        "desktop"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 23,
+      "sheet": "screenshots/report-flow-desktop-contact-sheet.png",
+      "sheetSha256": "33796cda5c50566712bcd5fad6cdacb30dc526bce56259db4f30db277758bea3",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-desktop-01-cover.png",
+          "sha256": "01511f95e42e9224fb45bcfc43ed7670699c68a30e7d78470b29827c336322c1"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-02-settings.png",
+          "sha256": "cc25ed7c94d3e1a49993616aee3ee8fbc77e141982f7d9e86ee173bcb0591fa0"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-03-tutorial-1.png",
+          "sha256": "30dddedc481a8b8a17da22e5967f03efa59ec4c0c75cf81b04366fbd943145ed"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-04-tutorial-2.png",
+          "sha256": "7192a2b1fa982a6dc34dfc096a3e8d7fd4bcd80cb4b6a09fbc72e969f2b13ea9"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05-play-step1.png",
+          "sha256": "9749121f9a2fa679a2728ead1f4f45124795c3a18183de476848598b8e8800d5"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05n-next-problem-clean.png",
+          "sha256": "dd5ab2241776dbbc472429275b9ac0aef5381a4a3c028bc2b0bc3559af54cea5"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05b-play-wrong.png",
+          "sha256": "5ed6735343e14759ef5c64154a29f02543a2e9bdd33b804eee009e21b5d8173c"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-06-confirm.png",
+          "sha256": "5f53358ca0d04b5331abcce0f28f33373ef78a0ffa90b6763d60b8f4c9d43b62"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07-reward-closed.png",
+          "sha256": "09421d0833a876d9e5e9102ffe5a9b43e7a132a6fc69e231e2b35d79e7eee3f5"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07b-reward-open.png",
+          "sha256": "6114cca869d2ec9e5276680ab672f5e3426c43011dbcf1e22063889cd3de3270"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08-result.png",
+          "sha256": "e2882a5cbdaf3b7361fac207c46d95e5aef76c5b205ab120ab766b96781692f2"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-first-bridge.png",
+          "sha256": "3bd25824a40d26e7c27e95ea5440115ce34b79ff5974927a5b0990a6c4e2e813"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-first-bridge.png",
+          "sha256": "3bd25824a40d26e7c27e95ea5440115ce34b79ff5974927a5b0990a6c4e2e813"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-golden-bridge.png",
+          "sha256": "5dd1e4e67dabe67ee2ca1bc9ff7d3520074d1494df425d9b84b73017e92def72"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-joined-bridge.png",
+          "sha256": "37e66f4774adc03caeeef13f11b15e021ac5a3e976d2ab0a33e84f1922cd490d"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-rainbow-bridge.png",
+          "sha256": "66a41b6207391bc3ee2f6e4760f39b52d744265b880b6e6f14f2f7ca621c5836"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-shining-bridge.png",
+          "sha256": "fed1866d5a9868b2de7660198e97bc8eb6c9447c0d7b3beb027635804b818e9c"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-steady-bridge.png",
+          "sha256": "660f41eeafd31d33f2a2b4127a70d31e86412a92272b63b109041eb6b0330d6f"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-joined-bridge.png",
+          "sha256": "37e66f4774adc03caeeef13f11b15e021ac5a3e976d2ab0a33e84f1922cd490d"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-steady-bridge.png",
+          "sha256": "660f41eeafd31d33f2a2b4127a70d31e86412a92272b63b109041eb6b0330d6f"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-shining-bridge.png",
+          "sha256": "fed1866d5a9868b2de7660198e97bc8eb6c9447c0d7b3beb027635804b818e9c"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-golden-bridge.png",
+          "sha256": "5dd1e4e67dabe67ee2ca1bc9ff7d3520074d1494df425d9b84b73017e92def72"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-rainbow-bridge.png",
+          "sha256": "66a41b6207391bc3ee2f6e4760f39b52d744265b880b6e6f14f2f7ca621c5836"
+        }
+      ]
+    },
+    {
+      "name": "tablet-landscape",
+      "canonicalName": "tablet-landscape",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "regressionNames": [
+        "tablet-landscape"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 23,
+      "sheet": "screenshots/report-flow-tablet-landscape-contact-sheet.png",
+      "sheetSha256": "19be59dc2a05cc0a4120de2acfe225706abf97f141ff2dbddb4da42e297c0058",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-01-cover.png",
+          "sha256": "a3136ccd58ba895b46a4f55a4f9865e8043252d341b8c00d0af82c0d265e4b3a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-02-settings.png",
+          "sha256": "e62184f4b2cc90ef89a0f4e3a273b3940b8d03949955e765068fbb7bf5f7c00a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-03-tutorial-1.png",
+          "sha256": "df65af555ca54daccff6b88d3a65b5c35b431a7754c25fdade3c087f03fa1f09"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-04-tutorial-2.png",
+          "sha256": "676bd010862784259131398c1c5ff3c699c0e791f918a3b59b225f68f778e02a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05-play-step1.png",
+          "sha256": "e6ce11c55af40978ee7c7ef384fa427f31c0b816b62720918f65f720e58b76d8"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05n-next-problem-clean.png",
+          "sha256": "c119c9f6d6bde5533c37001e45c6accefbbd30fd105f78d065729708c58724bb"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05b-play-wrong.png",
+          "sha256": "e06a3beb1f6bf798c86011a1b0845b9623c2e66bd70bde729be0abcd66f7f4b3"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-06-confirm.png",
+          "sha256": "b5ef591e48626712e215f603ea86c1b94138f1ca19ee7cacd3cf693a91904427"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07-reward-closed.png",
+          "sha256": "36498693003ba83b8776ee0e7624c955569f73cf2f0a289c9c729e6a3610cdac"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07b-reward-open.png",
+          "sha256": "1fc6ae210d405e82acf1f2cb4c1fb9ab7af720d3d2b179df2ad4beae1408eff9"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08-result.png",
+          "sha256": "3aea5cfccbcdc9295291b63f343dc44238b202e3614b4c04453b54765ea13586"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-first-bridge.png",
+          "sha256": "1a6fe052c62dbe0f3e15dfa4af084c2e012bd0cf1467095986d0ca16be64f7f4"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-first-bridge.png",
+          "sha256": "1a6fe052c62dbe0f3e15dfa4af084c2e012bd0cf1467095986d0ca16be64f7f4"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-golden-bridge.png",
+          "sha256": "45d2aa827cce1aac20ea9403417d693afb839dc618484e485eedc9253cf02e5e"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-joined-bridge.png",
+          "sha256": "c1c129060391a65a899cd7e5d05d8e78af40cd7950fc183f81f781438e66854f"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-rainbow-bridge.png",
+          "sha256": "36d8c0ea354c0fd30b10ef2e5dab5d5a4fba748528b88d5e70fb2f6dd8c708a5"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-shining-bridge.png",
+          "sha256": "0761d68866b13abf33a369f1551cbba397eaee6abf71c5a3bc2b37ddefac092a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-steady-bridge.png",
+          "sha256": "a758c269fd202f345500b35af55316b3e73a44ebfbd9c904ce3af35ce329d884"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-joined-bridge.png",
+          "sha256": "c1c129060391a65a899cd7e5d05d8e78af40cd7950fc183f81f781438e66854f"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-steady-bridge.png",
+          "sha256": "a758c269fd202f345500b35af55316b3e73a44ebfbd9c904ce3af35ce329d884"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-shining-bridge.png",
+          "sha256": "0761d68866b13abf33a369f1551cbba397eaee6abf71c5a3bc2b37ddefac092a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-golden-bridge.png",
+          "sha256": "45d2aa827cce1aac20ea9403417d693afb839dc618484e485eedc9253cf02e5e"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-rainbow-bridge.png",
+          "sha256": "36d8c0ea354c0fd30b10ef2e5dab5d5a4fba748528b88d5e70fb2f6dd8c708a5"
+        }
+      ]
+    },
+    {
+      "name": "reported-design-feedback-1079x842",
+      "canonicalName": "reported-design-feedback-1079x842",
+      "width": 1079,
+      "height": 842,
+      "dpr": 1,
+      "regressionNames": [
+        "reported-design-feedback-1079x842"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 23,
+      "sheet": "screenshots/report-flow-reported-design-feedback-1079x842-contact-sheet.png",
+      "sheetSha256": "f302facb35a65b9059f38f1485e63c5db82a55cece81a24c4299197857f45830",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-01-cover.png",
+          "sha256": "e33662d05da21ed63cf6b5ae5fb5b9f73ed71aaa7f2bd5069c6f648142f84ad1"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-02-settings.png",
+          "sha256": "6e9ae1f5ca8dbf4679f3c188a7fbb106c605f51409da5bee9319e00105aa7cf9"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-03-tutorial-1.png",
+          "sha256": "4479df1f387187c679a70d37a14d05a7d9bf8c493a3fbb0f852b167fe803418e"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-04-tutorial-2.png",
+          "sha256": "4f434bb96146e1c8cfc25e159c94c738dda2e911d406383a4db43e254d56f25b"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05-play-step1.png",
+          "sha256": "b283063c8dc2e15bf0ca76f7afa747072668996eee66d760ce49615aeca567de"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05n-next-problem-clean.png",
+          "sha256": "28af873a09cab3f212f4af0cdc5ed62fa7d16865e6539d7ab23c1e0e88e80a6d"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05b-play-wrong.png",
+          "sha256": "8b6d3cdefe6972e734f7c8b6ed512d8151e443f8efdd1e91213a141bac5453db"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-06-confirm.png",
+          "sha256": "31985f1a138ac8e8acea4bc0549faeb5a4756037a97ab5029fa1560594bfe930"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07-reward-closed.png",
+          "sha256": "0fa2494f137676c58f738ddd37176f44747c06dad281833c0096bed82eccefeb"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07b-reward-open.png",
+          "sha256": "9475bdfa187a89c648bda566dc95846369b3b3cbc7e6086e31250834e0bdb7af"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08-result.png",
+          "sha256": "aead05693fda589eaee90e7a0aa61b0ec11949d28618b1c1ec20745de9c740ce"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-first-bridge.png",
+          "sha256": "635eb60f37caf8e0533373b48e276806d916bedcdf2436cf632c897b9a2e91ca"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-first-bridge.png",
+          "sha256": "635eb60f37caf8e0533373b48e276806d916bedcdf2436cf632c897b9a2e91ca"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-golden-bridge.png",
+          "sha256": "9eb3189393f996c61171024584b1900555fb83f4f60a596bfe3baf4d6462fa84"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-joined-bridge.png",
+          "sha256": "2529511ecd700e7a41a9db79a3f9d89b416c535ce1afd069e24c51b2603f7793"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-rainbow-bridge.png",
+          "sha256": "002a8fcd6ddf5995198bff3d435149487ed52a1eba8accb8c462a9fa8e60e43c"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-shining-bridge.png",
+          "sha256": "a429558f58895dcf9bea8ce6266f3c3e6d3206eb6d608cc7167680b410c2018c"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-steady-bridge.png",
+          "sha256": "a6489c634594a81651db9e730736080846c9f13e8a67541e34db5ba4bbd95b9f"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-joined-bridge.png",
+          "sha256": "2529511ecd700e7a41a9db79a3f9d89b416c535ce1afd069e24c51b2603f7793"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-steady-bridge.png",
+          "sha256": "a6489c634594a81651db9e730736080846c9f13e8a67541e34db5ba4bbd95b9f"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-shining-bridge.png",
+          "sha256": "a429558f58895dcf9bea8ce6266f3c3e6d3206eb6d608cc7167680b410c2018c"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-golden-bridge.png",
+          "sha256": "9eb3189393f996c61171024584b1900555fb83f4f60a596bfe3baf4d6462fa84"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-rainbow-bridge.png",
+          "sha256": "002a8fcd6ddf5995198bff3d435149487ed52a1eba8accb8c462a9fa8e60e43c"
+        }
+      ]
+    }
+  ]
+}

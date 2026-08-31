@@ -1,0 +1,845 @@
+{
+  "standard": "report-current-screen-evidence-v3",
+  "lesson": "4-2-1-3-mathmon-fraction-sub-garden",
+  "generatedAt": "2026-08-31T05:51:00.629Z",
+  "indexSha256": "f4c0a4155d622328c9f26b2454fde231853b3953b85171527004f41b999895d6",
+  "sourceScreenshotsCommitted": false,
+  "sourceScreenshotsRetention": "ephemeral-local-cache",
+  "qaReceipt": "screenshots/mathmon-browser-qa-receipt.json",
+  "viewportPlan": {
+    "standard": "mathmon-qa-viewport-plan-v2",
+    "registeredCount": 3,
+    "executionCount": 3,
+    "deduplicatedCount": 0,
+    "targetedExecutionCount": 0,
+    "expandedDuplicates": false,
+    "registered": [
+      {
+        "name": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "behaviorKeys": []
+      }
+    ],
+    "executions": [
+      {
+        "name": "desktop",
+        "canonicalName": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "regressionNames": [
+          "desktop"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "tablet-landscape",
+        "canonicalName": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "regressionNames": [
+          "tablet-landscape"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "canonicalName": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "regressionNames": [
+          "reported-design-feedback-1079x842"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      }
+    ]
+  },
+  "fingerprints": {
+    "lessonRuntime": {
+      "sha256": "8bdad58afb00fa2b4fcac87142dfa5e8148ecadeba7db0531a48d2c2a217f6c0",
+      "files": [
+        "4-2-1-3-mathmon-fraction-sub-garden/cover-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/index.html",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-first-bed-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-flower-path-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-golden-garden-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-progress-states-contact-sheet.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-rainbow-garden-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-shining-greenhouse-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/play-sprout-garden-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-first-bed-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-first-bed-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-first-bed-title.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-first-bed-title.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-flower-path-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-flower-path-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-flower-path-title.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-flower-path-title.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-golden-garden-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-golden-garden-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-golden-garden-title.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-golden-garden-title.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-rainbow-garden-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-rainbow-garden-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-rainbow-garden-title.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-rainbow-garden-title.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-shining-greenhouse-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-shining-greenhouse-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-shining-greenhouse-title.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-shining-greenhouse-title.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-sprout-garden-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-sprout-garden-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-sprout-garden-title.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-sprout-garden-title.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-states-contact-sheet.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/result-title-states-contact-sheet.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-closed-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-closed-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-jackpot-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-jackpot-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-keep-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-keep-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-loss-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-loss-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-mega-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-mega-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-normal-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-normal-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-special-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-special-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/reward-states-contact-sheet.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/title-logo-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/title-logo-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/tutorial-page-1-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/tutorial-page-1-generated.webp",
+        "4-2-1-3-mathmon-fraction-sub-garden/tutorial-page-2-generated.png",
+        "4-2-1-3-mathmon-fraction-sub-garden/tutorial-page-2-generated.webp",
+        "_engine/v1/README.md",
+        "_engine/v1/runtime/core.js",
+        "_engine/v1/schemas/lesson.schema.json",
+        "_engine/v1/styles/core.css",
+        "_engine/v1/template.html",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/PLAN.md",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/cover-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/generation-lineage.json",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-first-bed-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-first-bed-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-flower-path-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-flower-path-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-golden-garden-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-golden-garden-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-progress-states-contact-sheet.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-rainbow-garden-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-rainbow-garden-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-shining-greenhouse-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-shining-greenhouse-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-sprout-garden-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/play-sprout-garden-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-first-bed-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-first-bed-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-first-bed-title-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-first-bed-title.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-first-bed-title.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-flower-path-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-flower-path-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-flower-path-title-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-flower-path-title.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-flower-path-title.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-golden-garden-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-golden-garden-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-golden-garden-title-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-golden-garden-title.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-golden-garden-title.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-rainbow-garden-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-rainbow-garden-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-rainbow-garden-title-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-rainbow-garden-title.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-rainbow-garden-title.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-shining-greenhouse-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-shining-greenhouse-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-shining-greenhouse-title-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-shining-greenhouse-title.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-shining-greenhouse-title.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-sprout-garden-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-sprout-garden-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-sprout-garden-title-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-sprout-garden-title.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-sprout-garden-title.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-states-contact-sheet.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/result-title-states-contact-sheet.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-closed-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-closed-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-jackpot-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-jackpot-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-keep-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-keep-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-loss-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-loss-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-mega-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-mega-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-normal-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-normal-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-special-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-special-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/reward-states-contact-sheet.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/title-logo-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/title-logo-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/tutorial-page-1-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/tutorial-page-1-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/tutorial-page-2-generated.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/assets/tutorial-page-2-generated.webp",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/cover-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/lesson.css",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/lesson.json",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/model.js",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/play-first-bed-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/play-flower-path-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/play-golden-garden-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/play-rainbow-garden-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/play-shining-greenhouse-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/play-sprout-garden-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/result-first-bed-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/result-flower-path-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/result-golden-garden-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/result-rainbow-garden-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/result-shining-greenhouse-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/result-sprout-garden-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-closed-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-jackpot-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-keep-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-loss-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-mega-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-normal-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/reward-special-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/title-logo-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/tutorial-page-1-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/tutorial-page-2-source.png",
+        "_lessons/4-2-1-3-mathmon-fraction-sub-garden/view.js",
+        "_lessons/_shared/unit6-data/lesson.css",
+        "_lessons/_shared/unit6-data/model.js",
+        "_lessons/_shared/unit6-data/view.js",
+        "_shared/brand/mathmon-cloud-mark.webp",
+        "_shared/mathmon/cover-start-button/start-button-generated.webp",
+        "_shared/mathmon/top-controls-v2.css",
+        "_shared/result-actions/retry-button-v2-generated.webp",
+        "_shared/result-count/result-correct-0-generated.webp",
+        "_shared/result-count/result-correct-1-generated.webp",
+        "_shared/result-count/result-correct-10-generated.webp",
+        "_shared/result-count/result-correct-2-generated.webp",
+        "_shared/result-count/result-correct-3-generated.webp",
+        "_shared/result-count/result-correct-4-generated.webp",
+        "_shared/result-count/result-correct-5-generated.webp",
+        "_shared/result-count/result-correct-6-generated.webp",
+        "_shared/result-count/result-correct-7-generated.webp",
+        "_shared/result-count/result-correct-8-generated.webp",
+        "_shared/result-count/result-correct-9-generated.webp",
+        "_shared/scoreboard/scoreboard-celebration-bg-generated.webp"
+      ]
+    },
+    "policy": {
+      "sha256": "12755163745e79738c823d22b6574b24e35a18a4245ff70c5d7dd204c43fbaf3",
+      "files": [
+        ".claude/skills/eduitit-mathmon-assets/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/effect-design.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/verification.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/vertical-calculation.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "LESSON_COMMONS.md",
+        "SERIES_CONTRACT.md",
+        "_shared/COMMON_RESOURCE_CONTRACT.md",
+        "_shared/brand/mathmon-brand-mark.json",
+        "_shared/contracts/component-registry.json",
+        "_shared/contracts/mathmon-4-2-official-24-v1.json",
+        "_shared/contracts/mathmon-browser-qa-execution-v2.json",
+        "_shared/contracts/mathmon-component-registry.json",
+        "_shared/contracts/mathmon-top-controls-v2.json",
+        "_shared/contracts/mathmon-unified-reward-v2.json",
+        "_shared/contracts/platform-component-registry.json",
+        "_shared/contracts/production-workflow.json",
+        "_shared/contracts/socialmon-component-registry.json",
+        "_shared/contracts/workspace-management.json",
+        "_shared/mathmon/MATHMON_ASSET_CONTRACT.md",
+        "_shared/monster-governance/MONSTER_UNIVERSE_CONTRACT.md",
+        "_shared/monster-governance/approvals/approvals.json",
+        "_shared/monster-governance/prompt-templates/character-master-v1.txt",
+        "_shared/monster-governance/registry/adoption-baseline.json",
+        "_shared/monster-governance/registry/legacy-species-reservations.json",
+        "_shared/monster-governance/schemas/approval-record.schema.json",
+        "_shared/monster-governance/schemas/candidate-brief.schema.json",
+        "_shared/monster-governance/schemas/character-governance-link.schema.json",
+        "_shared/monster-governance/schemas/generation-run.schema.json",
+        "_shared/monster-governance/schemas/mathmon-character-roster-v1.schema.json",
+        "_shared/monster-governance/schemas/registry.schema.json",
+        "_shared/monster-governance/schemas/socialmon-character-roster-v2.schema.json",
+        "_shared/monster-governance/schemas/socialmon-render-profile-v1.schema.json",
+        "_shared/monster-governance/schemas/subject-profile.schema.json",
+        "_shared/monster-governance/style-core.json",
+        "_shared/monster-governance/subject-profiles/mathmon.json",
+        "_shared/monster-governance/subject-profiles/socialmon-render-clay-vinyl-3d-v1.json",
+        "_shared/monster-governance/subject-profiles/socialmon.json",
+        "_shared/monster-governance/subjects.json"
+      ]
+    },
+    "harness": {
+      "sha256": "164f69fe686699e360c312c834f7e9817e4aa1f33b7847177d7676fd9fa6ea53",
+      "files": [
+        ".codex/hooks.json",
+        ".codex/hooks/mathmon-context.mjs",
+        ".codex/hooks/mathmon-hook-state.mjs",
+        ".codex/hooks/mathmon-stop-gate.mjs",
+        ".codex/hooks/prompt-content.mjs",
+        ".codex/hooks/socialmon-context.mjs",
+        ".codex/hooks/socialmon-hook-state.mjs",
+        ".codex/hooks/socialmon-stop-gate.mjs",
+        "scripts/ai-mart.mjs",
+        "scripts/build-lesson-report-sheets.mjs",
+        "scripts/build-monster-governance.mjs",
+        "scripts/build-monster-review-sheets.mjs",
+        "scripts/check-audio-assets.mjs",
+        "scripts/check-component-registry.mjs",
+        "scripts/check-lesson-contract.mjs",
+        "scripts/check-lesson-report-evidence.mjs",
+        "scripts/check-lesson-visual-contract.mjs",
+        "scripts/check-mathmon-brand-mark.mjs",
+        "scripts/check-mathmon-effect-containment.mjs",
+        "scripts/check-mathmon-preview.mjs",
+        "scripts/check-mathmon-vertical-calculation.mjs",
+        "scripts/check-monster-governance.mjs",
+        "scripts/check-production-workflow.mjs",
+        "scripts/check-ranking-disabled.mjs",
+        "scripts/check-result-panel-adoption.mjs",
+        "scripts/check-rule-consistency.mjs",
+        "scripts/check-run-randomness.mjs",
+        "scripts/check-stage-ratio.mjs",
+        "scripts/check-student-reward-language.mjs",
+        "scripts/compile-monster-prompt.mjs",
+        "scripts/fixtures/component-registry/duplicate-id.json",
+        "scripts/fixtures/component-registry/local-runtime-path.json",
+        "scripts/fixtures/component-registry/missing-compatibility-target.json",
+        "scripts/fixtures/component-registry/valid.json",
+        "scripts/fixtures/monster-governance/candidate-brief-valid.json",
+        "scripts/fixtures/result-panel-containment/axis-correct-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/baked-result-ui.json",
+        "scripts/fixtures/result-panel-containment/duplicate-panel-layer.json",
+        "scripts/fixtures/result-panel-containment/hidden-node-still-rendered.json",
+        "scripts/fixtures/result-panel-containment/panel-too-short.json",
+        "scripts/fixtures/result-panel-containment/retry-hitbox-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/scene-baked-title-retry.json",
+        "scripts/fixtures/result-panel-containment/shared-axis-off-panel-center.json",
+        "scripts/fixtures/result-panel-containment/stage-cropped-at-user-viewport.json",
+        "scripts/fixtures/result-panel-containment/undersized-result-controls.json",
+        "scripts/fixtures/result-panel-containment/valid.json",
+        "scripts/fixtures/result-reward-dominance/internal-metric-leak.json",
+        "scripts/fixtures/result-reward-dominance/oversized-panel-tiny-reward.json",
+        "scripts/fixtures/result-reward-dominance/reward-hidden-by-panel.json",
+        "scripts/fixtures/result-reward-dominance/valid.json",
+        "scripts/fixtures/result-visual-integrity/README.md",
+        "scripts/fixtures/result-visual-integrity/baked-title-cropped.json",
+        "scripts/fixtures/result-visual-integrity/baked-title-missing.json",
+        "scripts/fixtures/result-visual-integrity/cropped-evidence.json",
+        "scripts/fixtures/result-visual-integrity/duplicate-title-layer.json",
+        "scripts/fixtures/result-visual-integrity/title-gap-nine.json",
+        "scripts/fixtures/result-visual-integrity/title-outside-panel.json",
+        "scripts/fixtures/result-visual-integrity/title-overlap-metric.json",
+        "scripts/fixtures/result-visual-integrity/title-too-small.json",
+        "scripts/fixtures/result-visual-integrity/title-yellow-only.json",
+        "scripts/fixtures/result-visual-integrity/valid.json",
+        "scripts/fixtures/student-reward-language/aria-internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/generic-change-label.json",
+        "scripts/fixtures/student-reward-language/internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/missing-change-label.json",
+        "scripts/fixtures/student-reward-language/valid-highest-tier.json",
+        "scripts/fixtures/student-reward-language/valid-semantic-delta.json",
+        "scripts/fixtures/student-reward-language/valid-tier-delta-next.json",
+        "scripts/fixtures/student-reward-language/wrong-highest-tier.json",
+        "scripts/fixtures/student-reward-language/wrong-next-tier.json",
+        "scripts/fixtures/tutorial-poster-contract/css-action-surface.json",
+        "scripts/fixtures/tutorial-poster-contract/css-composed-panel.json",
+        "scripts/fixtures/tutorial-poster-contract/generated-action-hitbox-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/non-generated-poster.json",
+        "scripts/fixtures/tutorial-poster-contract/poster-card-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-generated-actions.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-scene-baked.json",
+        "scripts/fixtures/tutorial-poster-contract/visible-html-overlay.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-purpose-order.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-standard.json",
+        "scripts/lib/component-registry.mjs",
+        "scripts/lib/load-lesson-source-model.mjs",
+        "scripts/lib/mathmon-delivery-gate.mjs",
+        "scripts/lib/mathmon-fast-delivery.mjs",
+        "scripts/lib/mathmon-layout-qa.mjs",
+        "scripts/lib/mathmon-qa-viewports.mjs",
+        "scripts/lib/mathmon-repeated-element-qa.mjs",
+        "scripts/lib/mathmon-top-controls-v2.mjs",
+        "scripts/lib/monster-governance.mjs",
+        "scripts/lib/production-workflow.mjs",
+        "scripts/lib/public-mathmon-paths.mjs",
+        "scripts/lib/result-content-scale-policy.mjs",
+        "scripts/lib/result-internal-metric-policy.mjs",
+        "scripts/lib/result-reward-dominance.mjs",
+        "scripts/lib/run-lesson5-model-qa.mjs",
+        "scripts/lib/run-lesson5-simulation.mjs",
+        "scripts/lib/student-reward-language.mjs",
+        "scripts/lib/tutorial-poster-contract.mjs",
+        "scripts/qa-engine-unit3-circle-pattern-source.mjs",
+        "scripts/qa-engine-unit3-compass-source.mjs",
+        "scripts/qa-engine-unit3-double-bridge-source.mjs",
+        "scripts/qa-engine-unit3-target-source.mjs",
+        "scripts/qa-engine-unit4-pizza-source.mjs",
+        "scripts/qa-engine-unit4-scoop-source.mjs",
+        "scripts/qa-engine-unit4-sorter-source.mjs",
+        "scripts/qa-engine-unit4-tug-source.mjs",
+        "scripts/qa-engine-water-fill-flow.mjs",
+        "scripts/qa-lesson-flow.mjs",
+        "scripts/qa-lesson-model.mjs",
+        "scripts/qa-lesson2-check-lock.mjs",
+        "scripts/qa-lesson2-divide-farm.mjs",
+        "scripts/qa-lesson2-elevator.mjs",
+        "scripts/qa-lesson2-star-pickup.mjs",
+        "scripts/qa-lesson3-map-effects.mjs",
+        "scripts/qa-lesson3-math-model.mjs",
+        "scripts/qa-lesson3-result-fullscene.mjs",
+        "scripts/qa-lesson3-step-feedback.mjs",
+        "scripts/qa-lesson5-drink-order-model.mjs",
+        "scripts/qa-lesson5-flow.mjs",
+        "scripts/qa-lesson5-package-weight-click-guards.mjs",
+        "scripts/qa-lesson5-package-weight-model.mjs",
+        "scripts/qa-lesson5-scale-balance-model.mjs",
+        "scripts/qa-lesson5-water-fill-model.mjs",
+        "scripts/qa-mathmon-audio-smoke.mjs",
+        "scripts/qa-mathmon-layout.mjs",
+        "scripts/qa-mathmon-repeated-element.mjs",
+        "scripts/qa-mathmon-result-sweep.mjs",
+        "scripts/qa-mathmon-reward-percent.mjs",
+        "scripts/qa-result-visual-integrity-fixtures.mjs",
+        "scripts/qa-run-randomness-browser.mjs",
+        "scripts/qa-student-reward-language-browser.mjs",
+        "scripts/qa-unit1-result-screens.mjs",
+        "scripts/qa-unit3-reported-text-regressions.mjs",
+        "scripts/qa-unit6-browser.mjs",
+        "scripts/qa-unit6-data.mjs",
+        "scripts/sync-lesson-report-evidence.mjs",
+        "scripts/test-ai-mart.mjs",
+        "scripts/test-component-registry.mjs",
+        "scripts/test-mathmon-delivery-gate.mjs",
+        "scripts/test-mathmon-fast-delivery.mjs",
+        "scripts/test-mathmon-grade4-decimal-add-charge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-compare-runway-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-sub-dive-phase-a.mjs",
+        "scripts/test-mathmon-grade4-diagonal-laser-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-view.mjs",
+        "scripts/test-mathmon-grade4-graph-choice-studio-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-builder-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-signal-phase-a.mjs",
+        "scripts/test-mathmon-grade4-official-contract.mjs",
+        "scripts/test-mathmon-grade4-point-move-control-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-detector-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-mosaic-phase-a.mjs",
+        "scripts/test-mathmon-grade4-regular-polygon-crown-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-flip-mirror-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-rotate-pattern-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-slide-delivery-phase-a.mjs",
+        "scripts/test-mathmon-grade4-trend-detective-phase-a.mjs",
+        "scripts/test-mathmon-hooks.mjs",
+        "scripts/test-mathmon-layout-qa.mjs",
+        "scripts/test-mathmon-qa-viewports.mjs",
+        "scripts/test-mathmon-repeated-element-qa.mjs",
+        "scripts/test-mathmon-reward-policy.mjs",
+        "scripts/test-mathmon-series-expansion.mjs",
+        "scripts/test-mathmon-top-controls-v2.mjs",
+        "scripts/test-monster-governance.mjs",
+        "scripts/test-production-workflow.mjs",
+        "scripts/test-public-release-grade4.mjs",
+        "scripts/test-result-content-scale-policy.mjs",
+        "scripts/test-result-internal-metric-policy.mjs",
+        "scripts/test-result-panel-containment.mjs",
+        "scripts/test-result-reward-dominance.mjs",
+        "scripts/test-student-reward-language.mjs",
+        "scripts/test-tutorial-poster-contract.mjs",
+        "scripts/test-unit2-three-digit-division.mjs",
+        "scripts/verify-mathmon-delivery.mjs"
+      ]
+    }
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "canonicalName": "desktop",
+      "width": 1280,
+      "height": 800,
+      "dpr": 1,
+      "regressionNames": [
+        "desktop"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 23,
+      "sheet": "screenshots/report-flow-desktop-contact-sheet.png",
+      "sheetSha256": "d843b09731d694a080abc7386638b877dfb3038a33633521879964c149678577",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-desktop-01-cover.png",
+          "sha256": "0044a7abd41e0f2612d2d55122fbf73444b744c2485d10662c2927948af1e7d1"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-02-settings.png",
+          "sha256": "03ebc3d9cfecdc6ba27bd94be4566c05d580965b32a597f688310015d6de1676"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-03-tutorial-1.png",
+          "sha256": "ef0f11e05456ea52eb6a146b4b39a41ecc0b52dbd68c581ac1cd0e09dff9fd37"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-04-tutorial-2.png",
+          "sha256": "095a4f824d432a67b5b885887308ca0d1ef425e1427f3f6a1a9d3fe00b5645d7"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05-play-step1.png",
+          "sha256": "be657094a0dd874786db0d7bd8f493a239e6ee0e08e23299622733ed0b18441e"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05n-next-problem-clean.png",
+          "sha256": "785a8ce4c122d7479325d6ea748dc7bc69f5c9909092657adc3bfb8f71f5581a"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05b-play-wrong.png",
+          "sha256": "89035b06f4728dd634b7f0bd1d3d895ef98b3fe3bcf147ba91bc100b071f3892"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-06-confirm.png",
+          "sha256": "acf50713df26805a5c6840b8b924812fab9a4b75d1e621a0d47f5bb4bc33a373"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07-reward-closed.png",
+          "sha256": "87aa55fe20392e475bed4e7b0e442c5ce342e69b5c405a89ab4c1462b7702181"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07b-reward-open.png",
+          "sha256": "cf36ebf43fa77e9b94d355fbdeb99f581eae8ff838fa7093d3ae691cf8e3238b"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08-result.png",
+          "sha256": "71ad434bb3b73cc3b92055a0dca0af11c9c46a6c867576019fcb4cb5749f395c"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-first-bed.png",
+          "sha256": "1b1552942f0df030b42716b9b4d8d96b39a454bf2809a5ec64127d10bd79285d"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-first-bed.png",
+          "sha256": "1b1552942f0df030b42716b9b4d8d96b39a454bf2809a5ec64127d10bd79285d"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-flower-path.png",
+          "sha256": "faa09f3816b4733ec5962d40484341ed939e58f4974694cd5e6266c026022e76"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-golden-garden.png",
+          "sha256": "29af8a748efc9bc524bf4946375abd885ce3f2c2c28ea635ae631da6d13fb935"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-rainbow-garden.png",
+          "sha256": "dad1aae12e4961a8273f2a075544564509d22f5addbdfec6353d9fad11fb40c9"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-shining-greenhouse.png",
+          "sha256": "b1c48450aabbc3c5932f11e86d143e496d1ea82c411ccaacbc70bcab624b13cf"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08d-result-panel-sprout-garden.png",
+          "sha256": "87a943603f067a7cf0eec0ede9c9541094e33daaab6db6dc968235dae994eb89"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-sprout-garden.png",
+          "sha256": "87a943603f067a7cf0eec0ede9c9541094e33daaab6db6dc968235dae994eb89"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-flower-path.png",
+          "sha256": "faa09f3816b4733ec5962d40484341ed939e58f4974694cd5e6266c026022e76"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-shining-greenhouse.png",
+          "sha256": "b1c48450aabbc3c5932f11e86d143e496d1ea82c411ccaacbc70bcab624b13cf"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-golden-garden.png",
+          "sha256": "29af8a748efc9bc524bf4946375abd885ce3f2c2c28ea635ae631da6d13fb935"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-rainbow-garden.png",
+          "sha256": "dad1aae12e4961a8273f2a075544564509d22f5addbdfec6353d9fad11fb40c9"
+        }
+      ]
+    },
+    {
+      "name": "tablet-landscape",
+      "canonicalName": "tablet-landscape",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "regressionNames": [
+        "tablet-landscape"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 23,
+      "sheet": "screenshots/report-flow-tablet-landscape-contact-sheet.png",
+      "sheetSha256": "3bdec07ae0b6e16f37c91122cf3193d0525dce40094f0b7d044e18d1465daabb",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-01-cover.png",
+          "sha256": "6d9a8cc4504e17084cb141b055fb6eb51de950ddf72bbcc93349f8718f35a282"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-02-settings.png",
+          "sha256": "7fd57a590e7ab07fe460ef707045207e5f76f815fc54b41258965e78b06a8412"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-03-tutorial-1.png",
+          "sha256": "541619cf56e03b29ff9bdf7577f2d68cb9e2ba2922010f4acebbb8d662cc0271"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-04-tutorial-2.png",
+          "sha256": "df24be8f940fb506c49c953bd8198dd62009f49500d88e0435d04a0dd968beb8"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05-play-step1.png",
+          "sha256": "184d67e54a07dfbccf73a227be1244903cc9653c1b9175ea271e0929b53ef68c"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05n-next-problem-clean.png",
+          "sha256": "fa62498870974b27c439a813a985f5802513987dd8ffb0618a79c3464d6aa512"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05b-play-wrong.png",
+          "sha256": "d7232ca06a933dcf5eb8f0fcc525f915d662bc05469ad83f6fcd035981d24c02"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-06-confirm.png",
+          "sha256": "c0be7a15ba3b32d1e46acba0ed99ae8cf48fb909b15ca04195189a3eeed03f30"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07-reward-closed.png",
+          "sha256": "7447f116108d0809e6cf769f64c8921cf25ca15921e07eb50e2238b2979683f7"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07b-reward-open.png",
+          "sha256": "30e9e9b2a080ba272234a14ff2e97592e02e020b2dd1840a54581ca6815fb915"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08-result.png",
+          "sha256": "cb657f6b1f0f690e2b18ffa6dac915a8209fcd68c26e99a4c22e0b22cb02ebd2"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-first-bed.png",
+          "sha256": "6e113b89dd52e3b02c3f5275144631e3911ba7406e76df778f9cf73a207e1eff"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-first-bed.png",
+          "sha256": "6e113b89dd52e3b02c3f5275144631e3911ba7406e76df778f9cf73a207e1eff"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-flower-path.png",
+          "sha256": "daf62090f3217fa7691ea076311ae07d7ea68be2b20bd08f4991b452f79488e0"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-golden-garden.png",
+          "sha256": "c104a4df49a77a03a92e25132f8f4a6f87c987a771e4731c161565aeea67c676"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-rainbow-garden.png",
+          "sha256": "4aecc9fc468429f0add9f041aeb47991fb0e8cbcc4c66443d1f40074d5e5bb59"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-shining-greenhouse.png",
+          "sha256": "a7e60083b2e952ca4ba0c1e000857f723ed3062fba24441d02b86363878d93b4"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08d-result-panel-sprout-garden.png",
+          "sha256": "5d9be578353dd6f2c115dc8308836a0b0c8a8505a3676a5e32cb75916dc1858b"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-sprout-garden.png",
+          "sha256": "5d9be578353dd6f2c115dc8308836a0b0c8a8505a3676a5e32cb75916dc1858b"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-flower-path.png",
+          "sha256": "daf62090f3217fa7691ea076311ae07d7ea68be2b20bd08f4991b452f79488e0"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-shining-greenhouse.png",
+          "sha256": "a7e60083b2e952ca4ba0c1e000857f723ed3062fba24441d02b86363878d93b4"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-golden-garden.png",
+          "sha256": "c104a4df49a77a03a92e25132f8f4a6f87c987a771e4731c161565aeea67c676"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-rainbow-garden.png",
+          "sha256": "4aecc9fc468429f0add9f041aeb47991fb0e8cbcc4c66443d1f40074d5e5bb59"
+        }
+      ]
+    },
+    {
+      "name": "reported-design-feedback-1079x842",
+      "canonicalName": "reported-design-feedback-1079x842",
+      "width": 1079,
+      "height": 842,
+      "dpr": 1,
+      "regressionNames": [
+        "reported-design-feedback-1079x842"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 23,
+      "sheet": "screenshots/report-flow-reported-design-feedback-1079x842-contact-sheet.png",
+      "sheetSha256": "6cee94b9d0cee5edf5a10180448af529cb41913b7eb1188a7ebc76fd81e90c59",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-01-cover.png",
+          "sha256": "3ccc85e61fa69607baa31af930333e8b15d186f37450bce6abc7227421bfa8fe"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-02-settings.png",
+          "sha256": "446c465fafa1e90e16c6cf0063399f8d51940fe0d8e8d55ce19f00a87bdaa565"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-03-tutorial-1.png",
+          "sha256": "1efc9d6e62d62b4031efac5efaa5681942d24bc487abad640b07b106c94e5ce5"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-04-tutorial-2.png",
+          "sha256": "7e54ed09dee60bac47c5e9e0ec70571e7170847243e6563f476ad300e55010fd"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05-play-step1.png",
+          "sha256": "50be4103341f356eef8aab1e9498951850ad4e8714cb9f6a633e0b7a75cc5202"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05n-next-problem-clean.png",
+          "sha256": "d37ed0ca604bda24acec85c695e3afd985e9cd797f95f75a591f30d95c25f73f"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05b-play-wrong.png",
+          "sha256": "95a3cf21e4bfeee7e140ef8c937488690f4eb8049d8a6f5ac7d2eae1a98e09b6"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-06-confirm.png",
+          "sha256": "3dadbfdfb33afdb672ed2814df4cac444b93d7f8e4fd736ef42f072a895de4f3"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07-reward-closed.png",
+          "sha256": "22e49b442b3f4199bd6a14c5bbb9a2d6391394021a3744a75dffa26627600063"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07b-reward-open.png",
+          "sha256": "e1f3d69ad5c4a7076a9d9d0f3c9aa0fcaf08f6b5183537cd2f0cab8e25d08ee6"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08-result.png",
+          "sha256": "d07edf87b1382fd1850f63b444a1b23954d057216c2d6d64dcbfb3a3c0c92366"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-first-bed.png",
+          "sha256": "680e16027d9a2dd98d23649f69a9be554fd5176628a09202837561dec9923e6e"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-first-bed.png",
+          "sha256": "680e16027d9a2dd98d23649f69a9be554fd5176628a09202837561dec9923e6e"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-flower-path.png",
+          "sha256": "4b9ec0ad17385b01c8ba9189db663ccf3e050756d8bc0ed9e381acf5aa167993"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-golden-garden.png",
+          "sha256": "4af2a8cecb5f6a7912fd40e7fb5e54a16cd2aabd2278d5b9949f2a629df30d85"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-rainbow-garden.png",
+          "sha256": "c6c1b88d602a79c4127a3dd5ddf0ee83b668b26158b34343b590693a0695bb11"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-shining-greenhouse.png",
+          "sha256": "e8565be1b0f398a30744402fe5cbd3e19db68c7af10154bb651db008e4c37ff6"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08d-result-panel-sprout-garden.png",
+          "sha256": "5789f3a5f88957ba8ccd77a72ef7d43af163283e31408d38839f5e368825b8e9"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-sprout-garden.png",
+          "sha256": "5789f3a5f88957ba8ccd77a72ef7d43af163283e31408d38839f5e368825b8e9"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-flower-path.png",
+          "sha256": "4b9ec0ad17385b01c8ba9189db663ccf3e050756d8bc0ed9e381acf5aa167993"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-shining-greenhouse.png",
+          "sha256": "e8565be1b0f398a30744402fe5cbd3e19db68c7af10154bb651db008e4c37ff6"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-golden-garden.png",
+          "sha256": "4af2a8cecb5f6a7912fd40e7fb5e54a16cd2aabd2278d5b9949f2a629df30d85"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-rainbow-garden.png",
+          "sha256": "c6c1b88d602a79c4127a3dd5ddf0ee83b668b26158b34343b590693a0695bb11"
+        }
+      ]
+    }
+  ]
+}

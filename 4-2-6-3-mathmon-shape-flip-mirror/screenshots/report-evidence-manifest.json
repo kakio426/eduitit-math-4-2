@@ -1,0 +1,702 @@
+{
+  "standard": "report-current-screen-evidence-v3",
+  "lesson": "4-2-6-3-mathmon-shape-flip-mirror",
+  "generatedAt": "2026-08-31T05:57:49.033Z",
+  "indexSha256": "367dbbf2dc6bc5e853244caae39f0484667af516c9379325bc0e82179fe5b1d9",
+  "sourceScreenshotsCommitted": false,
+  "sourceScreenshotsRetention": "ephemeral-local-cache",
+  "qaReceipt": "screenshots/mathmon-browser-qa-receipt.json",
+  "viewportPlan": {
+    "standard": "mathmon-qa-viewport-plan-v2",
+    "registeredCount": 3,
+    "executionCount": 3,
+    "deduplicatedCount": 0,
+    "targetedExecutionCount": 0,
+    "expandedDuplicates": false,
+    "registered": [
+      {
+        "name": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "behaviorKeys": []
+      }
+    ],
+    "executions": [
+      {
+        "name": "desktop",
+        "canonicalName": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "regressionNames": [
+          "desktop"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "tablet-landscape",
+        "canonicalName": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "regressionNames": [
+          "tablet-landscape"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "canonicalName": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "regressionNames": [
+          "reported-design-feedback-1079x842"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      }
+    ]
+  },
+  "fingerprints": {
+    "lessonRuntime": {
+      "sha256": "d70886a3aa20e27baee9cf7705ac85e5df8cddf648dbf9109cd9678e18023a0b",
+      "files": [
+        "4-2-6-3-mathmon-shape-flip-mirror/cover-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/index.html",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-states-contact-sheet.png",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-tier-1-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-tier-2-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-tier-3-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-tier-4-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-tier-5-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/result-tier-6-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-closed-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-jackpot-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-keep-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-loss-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-mega-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-normal-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/reward-special-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/title-logo-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/tutorial-page-1-generated.webp",
+        "4-2-6-3-mathmon-shape-flip-mirror/tutorial-page-2-generated.webp",
+        "_engine/v1/README.md",
+        "_engine/v1/runtime/core.js",
+        "_engine/v1/schemas/lesson.schema.json",
+        "_engine/v1/styles/core.css",
+        "_engine/v1/template.html",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/PLAN.md",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/cover-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/cover-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/cover-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/generation-lineage.json",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/imagegen-prompts.json",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-source-contact-sheet.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-states-contact-sheet.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-1-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-1-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-1-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-2-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-2-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-2-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-3-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-3-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-3-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-4-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-4-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-4-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-5-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-5-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-5-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-6-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-6-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/result-tier-6-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-closed-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-closed-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-closed-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-jackpot-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-jackpot-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-jackpot-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-keep-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-keep-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-keep-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-loss-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-loss-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-loss-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-mega-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-mega-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-mega-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-normal-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-normal-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-normal-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-source-contact-sheet.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-special-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-special-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-special-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/reward-states-contact-sheet.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/title-logo-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/title-logo-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/title-logo-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/tutorial-page-1-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/tutorial-page-1-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/tutorial-page-1-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/tutorial-page-2-generated.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/tutorial-page-2-generated.webp",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/assets/tutorial-page-2-source.png",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/lesson.css",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/lesson.json",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/model.js",
+        "_lessons/4-2-6-3-mathmon-shape-flip-mirror/view.js",
+        "_lessons/_shared/unit6-data/lesson.css",
+        "_lessons/_shared/unit6-data/model.js",
+        "_lessons/_shared/unit6-data/view.js",
+        "_shared/brand/mathmon-cloud-mark.webp",
+        "_shared/mathmon/cover-start-button/start-button-generated.webp",
+        "_shared/mathmon/top-controls-v2.css",
+        "_shared/result-actions/retry-button-v2-generated.webp",
+        "_shared/result-count/result-correct-0-generated.webp",
+        "_shared/result-count/result-correct-1-generated.webp",
+        "_shared/result-count/result-correct-10-generated.webp",
+        "_shared/result-count/result-correct-2-generated.webp",
+        "_shared/result-count/result-correct-3-generated.webp",
+        "_shared/result-count/result-correct-4-generated.webp",
+        "_shared/result-count/result-correct-5-generated.webp",
+        "_shared/result-count/result-correct-6-generated.webp",
+        "_shared/result-count/result-correct-7-generated.webp",
+        "_shared/result-count/result-correct-8-generated.webp",
+        "_shared/result-count/result-correct-9-generated.webp",
+        "_shared/scoreboard/scoreboard-celebration-bg-generated.webp"
+      ]
+    },
+    "policy": {
+      "sha256": "12755163745e79738c823d22b6574b24e35a18a4245ff70c5d7dd204c43fbaf3",
+      "files": [
+        ".claude/skills/eduitit-mathmon-assets/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/effect-design.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/verification.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/vertical-calculation.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "LESSON_COMMONS.md",
+        "SERIES_CONTRACT.md",
+        "_shared/COMMON_RESOURCE_CONTRACT.md",
+        "_shared/brand/mathmon-brand-mark.json",
+        "_shared/contracts/component-registry.json",
+        "_shared/contracts/mathmon-4-2-official-24-v1.json",
+        "_shared/contracts/mathmon-browser-qa-execution-v2.json",
+        "_shared/contracts/mathmon-component-registry.json",
+        "_shared/contracts/mathmon-top-controls-v2.json",
+        "_shared/contracts/mathmon-unified-reward-v2.json",
+        "_shared/contracts/platform-component-registry.json",
+        "_shared/contracts/production-workflow.json",
+        "_shared/contracts/socialmon-component-registry.json",
+        "_shared/contracts/workspace-management.json",
+        "_shared/mathmon/MATHMON_ASSET_CONTRACT.md",
+        "_shared/monster-governance/MONSTER_UNIVERSE_CONTRACT.md",
+        "_shared/monster-governance/approvals/approvals.json",
+        "_shared/monster-governance/prompt-templates/character-master-v1.txt",
+        "_shared/monster-governance/registry/adoption-baseline.json",
+        "_shared/monster-governance/registry/legacy-species-reservations.json",
+        "_shared/monster-governance/schemas/approval-record.schema.json",
+        "_shared/monster-governance/schemas/candidate-brief.schema.json",
+        "_shared/monster-governance/schemas/character-governance-link.schema.json",
+        "_shared/monster-governance/schemas/generation-run.schema.json",
+        "_shared/monster-governance/schemas/mathmon-character-roster-v1.schema.json",
+        "_shared/monster-governance/schemas/registry.schema.json",
+        "_shared/monster-governance/schemas/socialmon-character-roster-v2.schema.json",
+        "_shared/monster-governance/schemas/socialmon-render-profile-v1.schema.json",
+        "_shared/monster-governance/schemas/subject-profile.schema.json",
+        "_shared/monster-governance/style-core.json",
+        "_shared/monster-governance/subject-profiles/mathmon.json",
+        "_shared/monster-governance/subject-profiles/socialmon-render-clay-vinyl-3d-v1.json",
+        "_shared/monster-governance/subject-profiles/socialmon.json",
+        "_shared/monster-governance/subjects.json"
+      ]
+    },
+    "harness": {
+      "sha256": "164f69fe686699e360c312c834f7e9817e4aa1f33b7847177d7676fd9fa6ea53",
+      "files": [
+        ".codex/hooks.json",
+        ".codex/hooks/mathmon-context.mjs",
+        ".codex/hooks/mathmon-hook-state.mjs",
+        ".codex/hooks/mathmon-stop-gate.mjs",
+        ".codex/hooks/prompt-content.mjs",
+        ".codex/hooks/socialmon-context.mjs",
+        ".codex/hooks/socialmon-hook-state.mjs",
+        ".codex/hooks/socialmon-stop-gate.mjs",
+        "scripts/ai-mart.mjs",
+        "scripts/build-lesson-report-sheets.mjs",
+        "scripts/build-monster-governance.mjs",
+        "scripts/build-monster-review-sheets.mjs",
+        "scripts/check-audio-assets.mjs",
+        "scripts/check-component-registry.mjs",
+        "scripts/check-lesson-contract.mjs",
+        "scripts/check-lesson-report-evidence.mjs",
+        "scripts/check-lesson-visual-contract.mjs",
+        "scripts/check-mathmon-brand-mark.mjs",
+        "scripts/check-mathmon-effect-containment.mjs",
+        "scripts/check-mathmon-preview.mjs",
+        "scripts/check-mathmon-vertical-calculation.mjs",
+        "scripts/check-monster-governance.mjs",
+        "scripts/check-production-workflow.mjs",
+        "scripts/check-ranking-disabled.mjs",
+        "scripts/check-result-panel-adoption.mjs",
+        "scripts/check-rule-consistency.mjs",
+        "scripts/check-run-randomness.mjs",
+        "scripts/check-stage-ratio.mjs",
+        "scripts/check-student-reward-language.mjs",
+        "scripts/compile-monster-prompt.mjs",
+        "scripts/fixtures/component-registry/duplicate-id.json",
+        "scripts/fixtures/component-registry/local-runtime-path.json",
+        "scripts/fixtures/component-registry/missing-compatibility-target.json",
+        "scripts/fixtures/component-registry/valid.json",
+        "scripts/fixtures/monster-governance/candidate-brief-valid.json",
+        "scripts/fixtures/result-panel-containment/axis-correct-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/baked-result-ui.json",
+        "scripts/fixtures/result-panel-containment/duplicate-panel-layer.json",
+        "scripts/fixtures/result-panel-containment/hidden-node-still-rendered.json",
+        "scripts/fixtures/result-panel-containment/panel-too-short.json",
+        "scripts/fixtures/result-panel-containment/retry-hitbox-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/scene-baked-title-retry.json",
+        "scripts/fixtures/result-panel-containment/shared-axis-off-panel-center.json",
+        "scripts/fixtures/result-panel-containment/stage-cropped-at-user-viewport.json",
+        "scripts/fixtures/result-panel-containment/undersized-result-controls.json",
+        "scripts/fixtures/result-panel-containment/valid.json",
+        "scripts/fixtures/result-reward-dominance/internal-metric-leak.json",
+        "scripts/fixtures/result-reward-dominance/oversized-panel-tiny-reward.json",
+        "scripts/fixtures/result-reward-dominance/reward-hidden-by-panel.json",
+        "scripts/fixtures/result-reward-dominance/valid.json",
+        "scripts/fixtures/result-visual-integrity/README.md",
+        "scripts/fixtures/result-visual-integrity/baked-title-cropped.json",
+        "scripts/fixtures/result-visual-integrity/baked-title-missing.json",
+        "scripts/fixtures/result-visual-integrity/cropped-evidence.json",
+        "scripts/fixtures/result-visual-integrity/duplicate-title-layer.json",
+        "scripts/fixtures/result-visual-integrity/title-gap-nine.json",
+        "scripts/fixtures/result-visual-integrity/title-outside-panel.json",
+        "scripts/fixtures/result-visual-integrity/title-overlap-metric.json",
+        "scripts/fixtures/result-visual-integrity/title-too-small.json",
+        "scripts/fixtures/result-visual-integrity/title-yellow-only.json",
+        "scripts/fixtures/result-visual-integrity/valid.json",
+        "scripts/fixtures/student-reward-language/aria-internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/generic-change-label.json",
+        "scripts/fixtures/student-reward-language/internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/missing-change-label.json",
+        "scripts/fixtures/student-reward-language/valid-highest-tier.json",
+        "scripts/fixtures/student-reward-language/valid-semantic-delta.json",
+        "scripts/fixtures/student-reward-language/valid-tier-delta-next.json",
+        "scripts/fixtures/student-reward-language/wrong-highest-tier.json",
+        "scripts/fixtures/student-reward-language/wrong-next-tier.json",
+        "scripts/fixtures/tutorial-poster-contract/css-action-surface.json",
+        "scripts/fixtures/tutorial-poster-contract/css-composed-panel.json",
+        "scripts/fixtures/tutorial-poster-contract/generated-action-hitbox-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/non-generated-poster.json",
+        "scripts/fixtures/tutorial-poster-contract/poster-card-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-generated-actions.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-scene-baked.json",
+        "scripts/fixtures/tutorial-poster-contract/visible-html-overlay.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-purpose-order.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-standard.json",
+        "scripts/lib/component-registry.mjs",
+        "scripts/lib/load-lesson-source-model.mjs",
+        "scripts/lib/mathmon-delivery-gate.mjs",
+        "scripts/lib/mathmon-fast-delivery.mjs",
+        "scripts/lib/mathmon-layout-qa.mjs",
+        "scripts/lib/mathmon-qa-viewports.mjs",
+        "scripts/lib/mathmon-repeated-element-qa.mjs",
+        "scripts/lib/mathmon-top-controls-v2.mjs",
+        "scripts/lib/monster-governance.mjs",
+        "scripts/lib/production-workflow.mjs",
+        "scripts/lib/public-mathmon-paths.mjs",
+        "scripts/lib/result-content-scale-policy.mjs",
+        "scripts/lib/result-internal-metric-policy.mjs",
+        "scripts/lib/result-reward-dominance.mjs",
+        "scripts/lib/run-lesson5-model-qa.mjs",
+        "scripts/lib/run-lesson5-simulation.mjs",
+        "scripts/lib/student-reward-language.mjs",
+        "scripts/lib/tutorial-poster-contract.mjs",
+        "scripts/qa-engine-unit3-circle-pattern-source.mjs",
+        "scripts/qa-engine-unit3-compass-source.mjs",
+        "scripts/qa-engine-unit3-double-bridge-source.mjs",
+        "scripts/qa-engine-unit3-target-source.mjs",
+        "scripts/qa-engine-unit4-pizza-source.mjs",
+        "scripts/qa-engine-unit4-scoop-source.mjs",
+        "scripts/qa-engine-unit4-sorter-source.mjs",
+        "scripts/qa-engine-unit4-tug-source.mjs",
+        "scripts/qa-engine-water-fill-flow.mjs",
+        "scripts/qa-lesson-flow.mjs",
+        "scripts/qa-lesson-model.mjs",
+        "scripts/qa-lesson2-check-lock.mjs",
+        "scripts/qa-lesson2-divide-farm.mjs",
+        "scripts/qa-lesson2-elevator.mjs",
+        "scripts/qa-lesson2-star-pickup.mjs",
+        "scripts/qa-lesson3-map-effects.mjs",
+        "scripts/qa-lesson3-math-model.mjs",
+        "scripts/qa-lesson3-result-fullscene.mjs",
+        "scripts/qa-lesson3-step-feedback.mjs",
+        "scripts/qa-lesson5-drink-order-model.mjs",
+        "scripts/qa-lesson5-flow.mjs",
+        "scripts/qa-lesson5-package-weight-click-guards.mjs",
+        "scripts/qa-lesson5-package-weight-model.mjs",
+        "scripts/qa-lesson5-scale-balance-model.mjs",
+        "scripts/qa-lesson5-water-fill-model.mjs",
+        "scripts/qa-mathmon-audio-smoke.mjs",
+        "scripts/qa-mathmon-layout.mjs",
+        "scripts/qa-mathmon-repeated-element.mjs",
+        "scripts/qa-mathmon-result-sweep.mjs",
+        "scripts/qa-mathmon-reward-percent.mjs",
+        "scripts/qa-result-visual-integrity-fixtures.mjs",
+        "scripts/qa-run-randomness-browser.mjs",
+        "scripts/qa-student-reward-language-browser.mjs",
+        "scripts/qa-unit1-result-screens.mjs",
+        "scripts/qa-unit3-reported-text-regressions.mjs",
+        "scripts/qa-unit6-browser.mjs",
+        "scripts/qa-unit6-data.mjs",
+        "scripts/sync-lesson-report-evidence.mjs",
+        "scripts/test-ai-mart.mjs",
+        "scripts/test-component-registry.mjs",
+        "scripts/test-mathmon-delivery-gate.mjs",
+        "scripts/test-mathmon-fast-delivery.mjs",
+        "scripts/test-mathmon-grade4-decimal-add-charge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-compare-runway-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-sub-dive-phase-a.mjs",
+        "scripts/test-mathmon-grade4-diagonal-laser-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-view.mjs",
+        "scripts/test-mathmon-grade4-graph-choice-studio-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-builder-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-signal-phase-a.mjs",
+        "scripts/test-mathmon-grade4-official-contract.mjs",
+        "scripts/test-mathmon-grade4-point-move-control-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-detector-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-mosaic-phase-a.mjs",
+        "scripts/test-mathmon-grade4-regular-polygon-crown-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-flip-mirror-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-rotate-pattern-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-slide-delivery-phase-a.mjs",
+        "scripts/test-mathmon-grade4-trend-detective-phase-a.mjs",
+        "scripts/test-mathmon-hooks.mjs",
+        "scripts/test-mathmon-layout-qa.mjs",
+        "scripts/test-mathmon-qa-viewports.mjs",
+        "scripts/test-mathmon-repeated-element-qa.mjs",
+        "scripts/test-mathmon-reward-policy.mjs",
+        "scripts/test-mathmon-series-expansion.mjs",
+        "scripts/test-mathmon-top-controls-v2.mjs",
+        "scripts/test-monster-governance.mjs",
+        "scripts/test-production-workflow.mjs",
+        "scripts/test-public-release-grade4.mjs",
+        "scripts/test-result-content-scale-policy.mjs",
+        "scripts/test-result-internal-metric-policy.mjs",
+        "scripts/test-result-panel-containment.mjs",
+        "scripts/test-result-reward-dominance.mjs",
+        "scripts/test-student-reward-language.mjs",
+        "scripts/test-tutorial-poster-contract.mjs",
+        "scripts/test-unit2-three-digit-division.mjs",
+        "scripts/verify-mathmon-delivery.mjs"
+      ]
+    }
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "canonicalName": "desktop",
+      "width": 1280,
+      "height": 800,
+      "dpr": 1,
+      "regressionNames": [
+        "desktop"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 17,
+      "sheet": "screenshots/report-flow-desktop-contact-sheet.png",
+      "sheetSha256": "592d4f9b153537c94beb2df31a59f407b0ceeea38626bdfc3f2632b4679dc380",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-desktop-01-cover.png",
+          "sha256": "88746536c50ff8eb4f8280375bb37921fb6c12bc753093fff528e8b2ea901195"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-02-settings.png",
+          "sha256": "3f03236357536586adf729d4bd915a3fa5e201246f15934cae86f2997fa92772"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-03-tutorial-1.png",
+          "sha256": "e85141de53956ead2f5dbe392534301644ed8c2fc7ec74bd640920b69487c340"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-04-tutorial-2.png",
+          "sha256": "34adfd17dcb37cf37d8a527cdb2c296261105dfaead4b678ae91c729fcda9e87"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05-play-step1.png",
+          "sha256": "bd20d653421d83cc4c01337dfb05b2cfc42521e6299da5732276f486533ba6b1"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05n-next-problem-clean.png",
+          "sha256": "5f394f4e7bb5ee16ed72a97c3cfdfb053ed2f918ed92c5fe5a2d9c8a9d3245ea"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05b-play-wrong.png",
+          "sha256": "332d71010ec761e1a24b47b03cc4b7bef9055f5a893e13052c019658da4bad6e"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-06-confirm.png",
+          "sha256": "be952a445e99f1daabb395771df96f886bf52f5860004dc91622d65e8560c4e5"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07-reward-closed.png",
+          "sha256": "c13ca1eed4b28fb6613894163e16679b1398ba0434724a735d7fe6bb5966b6ac"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07b-reward-open.png",
+          "sha256": "295b180c48fd9c318fc0f506bcc241ecee57a34c0c6e6d4443cbb120a97a20b7"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08-result.png",
+          "sha256": "7ceaeac62f7935487a9b385b503a4f5e5842fc4010ed7b3cd16d66871486dfb7"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-first-mirror.png",
+          "sha256": "a8b9343a5caa770aec4ae280486a5802886700a77a482a92223ae8b1829301c8"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-reflection-light.png",
+          "sha256": "047c69e7c2427b084446fd957fd5639cf9c5fa676e03c5513b48f0061d97f523"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-flip-board.png",
+          "sha256": "e81dfece671ed75941df2c44ecc03d0c469c1f6c5c7fdbbcd2df09ae1e46f41d"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-mirror-workbench.png",
+          "sha256": "8a81a299ab55a0599fcf287ecf9841a97c4dfc22891d6f9eab113efb43c45723"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-shape-flip-mirror.png",
+          "sha256": "2358a6fc5edb8bf95ab326b61dacccaa8ee57490ab425246975bdbeb60f8ad3c"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-starlight-shape-flip.png",
+          "sha256": "c96386e334ab56f7d69d3ad9c435b87d8f54cff9d43d5bd05b166587d93640a6"
+        }
+      ]
+    },
+    {
+      "name": "tablet-landscape",
+      "canonicalName": "tablet-landscape",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "regressionNames": [
+        "tablet-landscape"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 17,
+      "sheet": "screenshots/report-flow-tablet-landscape-contact-sheet.png",
+      "sheetSha256": "e6047810f63478ab7ab374993016cf82ba18d732b2ae1e0903912648ad4088b2",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-01-cover.png",
+          "sha256": "6e349e8337afee80511e1cff9c3108dbc541ed9db5ef0db5b03c2f5ee304b1f8"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-02-settings.png",
+          "sha256": "58fdabee749b544650ae41e1a2017b85f4bd8d1582e2603779d3bcf7ad62797a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-03-tutorial-1.png",
+          "sha256": "b9fee0109db0f8894b12c382bfc24e2ab0ec6bcfe9c1693ebb7686649a1d8ff6"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-04-tutorial-2.png",
+          "sha256": "94a7fdd64311a50f53a0e9bb5dbe802573131df2d9e9305af8605fdd96008e24"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05-play-step1.png",
+          "sha256": "3cc041f1b7b703e4c27c4040979aac7ab899f9baddbe6437de1b0777ac1ab04b"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05n-next-problem-clean.png",
+          "sha256": "fbda609cf074780c5bf1fd53f7e86ca320a5c56f73cd2cd50ab66c768c3e56c9"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05b-play-wrong.png",
+          "sha256": "3bdc4d7dee83ecfe2ba02c82a00905301057b0219d31b77eb82be0c30cbe9932"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-06-confirm.png",
+          "sha256": "1e3e7f4a2c446d21673d9c91cc377c49a0a9706ec6d92e8fafacab2996ab0112"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07-reward-closed.png",
+          "sha256": "f207528ae67b8f046b6ac084441cd209cf60a9e9e04b4a36a8a6b9dbe5629fb4"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07b-reward-open.png",
+          "sha256": "9e844e398164199dc3f691d48f4e8244563c65e1467228bc724fc4ce71fccba9"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08-result.png",
+          "sha256": "015d73f871df6db13c7eb48599fd92625b66b41ff78a00e96dddd4cdf6b11d8f"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-first-mirror.png",
+          "sha256": "0319c90a279b88316963afcff611e02905229e5ebd55226d95ed3c3609e3058e"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-reflection-light.png",
+          "sha256": "3a2b49b6f7190372b5f966e5d3702f47cd91a054ac489edb67f5643b63eda665"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-flip-board.png",
+          "sha256": "3062ffb584fd0da30e58e58ef56618c97b2f694819436fa0dfce4f05da50c003"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-mirror-workbench.png",
+          "sha256": "3e476f1152d76d02ee82981c17c8cbf5aecf48b1118d06c7d5871ee5528a2158"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-shape-flip-mirror.png",
+          "sha256": "322524edcd9258b576c68184f0c392fcd53faa4d7e5b65e4c4f9307a257dd8d7"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-starlight-shape-flip.png",
+          "sha256": "2187c3dafae2827a91765c9cd937d66b3ef621b978d58b60d6680374a9d717d8"
+        }
+      ]
+    },
+    {
+      "name": "reported-design-feedback-1079x842",
+      "canonicalName": "reported-design-feedback-1079x842",
+      "width": 1079,
+      "height": 842,
+      "dpr": 1,
+      "regressionNames": [
+        "reported-design-feedback-1079x842"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 17,
+      "sheet": "screenshots/report-flow-reported-design-feedback-1079x842-contact-sheet.png",
+      "sheetSha256": "939b75687ebbf7c6453e247f261d7a3e23727bfa9e88abfd51505c3c615b6205",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-01-cover.png",
+          "sha256": "0e13010b927c6190195459989c83ffc7d6ed05b6565f6ba0b3f850c45bffd7ee"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-02-settings.png",
+          "sha256": "c701eb158ea784aebdaff6429199015a004a8ddbaa4b3bc635b411b42bf03d3b"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-03-tutorial-1.png",
+          "sha256": "99f31abd729d98a4b8896f0227ae4d43e53f63ef6dae29f16e2cf2c5987eb151"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-04-tutorial-2.png",
+          "sha256": "0382ecea22c4769b4f60bed53f9d679658339ee4736ef833fc653200e205077b"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05-play-step1.png",
+          "sha256": "e8fdb33f341f54934f77fa0b470115dd586127367409f3ee9676cc530b966766"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05n-next-problem-clean.png",
+          "sha256": "68018fa084132f4f02d1f48b9b6d21aaa37adbebdac406976da3e1400c44f444"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05b-play-wrong.png",
+          "sha256": "c754ec8861d318214efdcab135821aa801232dcbf284ca9f519131e428cdb675"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-06-confirm.png",
+          "sha256": "f7dd50bc0d0e96434735e8da0577f58987860bab469d5be37a7e721f3eefe407"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07-reward-closed.png",
+          "sha256": "a16a486d62578003f7deaa0f93501774d1776dece05ad7327f95062935c1f061"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07b-reward-open.png",
+          "sha256": "cb9536e4fc3950b6403f99f9371b31cd3d623f10929849e041a3e4c0dee7ffd3"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08-result.png",
+          "sha256": "5a2ff771943f509d14843df25cf945ee8be6a98818a7701bba92a13f1dbf8fbd"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-first-mirror.png",
+          "sha256": "1002d2a7ea9bdd77a44dcb18b7af5a93c47510468aba1d0e1453226948d52ba8"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-reflection-light.png",
+          "sha256": "1ac4a41e3474b761e8bc4cd3e7f6da26ae7a01bb0893f59fdc6f4db1cc0d32b9"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-flip-board.png",
+          "sha256": "4766f0af59f32193eebe6817d5820ad94833177eda1315cca698dbfdd54d3f21"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-mirror-workbench.png",
+          "sha256": "a0e548557578235ca6092ddc2e6214cda3f1859d826eceed85ed793e8e6c9126"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-shape-flip-mirror.png",
+          "sha256": "19974aff03d2498d8fcebecf1e1392b8fc9989a7524fc9ba0f0c9116a1243e61"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-starlight-shape-flip.png",
+          "sha256": "311db4363d340d250d146627e7729140856e037da9f07885d1ae8db6ee112f65"
+        }
+      ]
+    }
+  ]
+}

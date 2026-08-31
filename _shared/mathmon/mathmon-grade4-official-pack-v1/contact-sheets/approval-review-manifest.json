@@ -1,0 +1,34 @@
+{
+  "packId": "mathmon-grade4-official-pack-v1",
+  "characterIds": [
+    "mathmon-grade4-01-sugar-glider",
+    "mathmon-grade4-02-bison",
+    "mathmon-grade4-03-tapir",
+    "mathmon-grade4-04-kingfisher",
+    "mathmon-grade4-05-flamingo",
+    "mathmon-grade4-06-gecko",
+    "mathmon-grade4-07-narwhal",
+    "mathmon-grade4-08-cassowary",
+    "mathmon-grade4-09-giant-anteater",
+    "mathmon-grade4-10-okapi"
+  ],
+  "foreignCharacterCount": 0,
+  "sheets": [
+    {
+      "mode": "color",
+      "path": "contact-sheets/full-pack-contact-sheet.png",
+      "sha256": "c2431b01a7257fde4f61b561106b3de567493fb6432ba2ec631129c218573d24"
+    },
+    {
+      "mode": "silhouette",
+      "path": "contact-sheets/full-pack-silhouette-sheet.png",
+      "sha256": "3095e8c4732d91fd0f5663de3d14deeb3c3d875e48b12c514d46528031d48c65"
+    },
+    {
+      "mode": "card",
+      "path": "contact-sheets/full-pack-card-size-sheet.png",
+      "sha256": "08675975941a655962eb66ee48e42af09a6f987fb0f82c961154b4bcc6ce0f9c"
+    }
+  ],
+  "font": "Apple SD Gothic Neo"
+}

@@ -1,0 +1,702 @@
+{
+  "standard": "report-current-screen-evidence-v3",
+  "lesson": "4-2-3-2-mathmon-decimal-compare-runway",
+  "generatedAt": "2026-08-31T05:53:29.992Z",
+  "indexSha256": "9138230fe952e8bf1f40b206861c7fbf13dad8f8cd7bf0ccedce9f600cf7a6bf",
+  "sourceScreenshotsCommitted": false,
+  "sourceScreenshotsRetention": "ephemeral-local-cache",
+  "qaReceipt": "screenshots/mathmon-browser-qa-receipt.json",
+  "viewportPlan": {
+    "standard": "mathmon-qa-viewport-plan-v2",
+    "registeredCount": 3,
+    "executionCount": 3,
+    "deduplicatedCount": 0,
+    "targetedExecutionCount": 0,
+    "expandedDuplicates": false,
+    "registered": [
+      {
+        "name": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "behaviorKeys": []
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "behaviorKeys": []
+      }
+    ],
+    "executions": [
+      {
+        "name": "desktop",
+        "canonicalName": "desktop",
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "regressionNames": [
+          "desktop"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "tablet-landscape",
+        "canonicalName": "tablet-landscape",
+        "width": 1024,
+        "height": 768,
+        "dpr": 1,
+        "regressionNames": [
+          "tablet-landscape"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      },
+      {
+        "name": "reported-design-feedback-1079x842",
+        "canonicalName": "reported-design-feedback-1079x842",
+        "width": 1079,
+        "height": 842,
+        "dpr": 1,
+        "regressionNames": [
+          "reported-design-feedback-1079x842"
+        ],
+        "aliases": [],
+        "behaviorKeys": [],
+        "capture": {
+          "mode": "full-flow"
+        }
+      }
+    ]
+  },
+  "fingerprints": {
+    "lessonRuntime": {
+      "sha256": "2857ede10048ae7414fd0b9cfa01be0ec74c5d8b055b8087cff44fd212eb02f4",
+      "files": [
+        "4-2-3-2-mathmon-decimal-compare-runway/cover-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/index.html",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-states-contact-sheet.png",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-tier-1-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-tier-2-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-tier-3-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-tier-4-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-tier-5-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/result-tier-6-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-closed-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-jackpot-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-keep-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-loss-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-mega-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-normal-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/reward-special-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/title-logo-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/tutorial-page-1-generated.webp",
+        "4-2-3-2-mathmon-decimal-compare-runway/tutorial-page-2-generated.webp",
+        "_engine/v1/README.md",
+        "_engine/v1/runtime/core.js",
+        "_engine/v1/schemas/lesson.schema.json",
+        "_engine/v1/styles/core.css",
+        "_engine/v1/template.html",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/PLAN.md",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/cover-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/cover-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/cover-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/generation-lineage.json",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/imagegen-prompts.json",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-source-contact-sheet.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-states-contact-sheet.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-1-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-1-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-1-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-2-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-2-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-2-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-3-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-3-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-3-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-4-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-4-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-4-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-5-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-5-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-5-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-6-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-6-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/result-tier-6-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-closed-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-closed-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-closed-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-jackpot-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-jackpot-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-jackpot-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-keep-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-keep-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-keep-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-loss-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-loss-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-loss-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-mega-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-mega-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-mega-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-normal-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-normal-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-normal-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-source-contact-sheet.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-special-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-special-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-special-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/reward-states-contact-sheet.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/title-logo-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/title-logo-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/title-logo-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/tutorial-page-1-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/tutorial-page-1-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/tutorial-page-1-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/tutorial-page-2-generated.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/tutorial-page-2-generated.webp",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/assets/tutorial-page-2-source.png",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/lesson.css",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/lesson.json",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/model.js",
+        "_lessons/4-2-3-2-mathmon-decimal-compare-runway/view.js",
+        "_lessons/_shared/unit6-data/lesson.css",
+        "_lessons/_shared/unit6-data/model.js",
+        "_lessons/_shared/unit6-data/view.js",
+        "_shared/brand/mathmon-cloud-mark.webp",
+        "_shared/mathmon/cover-start-button/start-button-generated.webp",
+        "_shared/mathmon/top-controls-v2.css",
+        "_shared/result-actions/retry-button-v2-generated.webp",
+        "_shared/result-count/result-correct-0-generated.webp",
+        "_shared/result-count/result-correct-1-generated.webp",
+        "_shared/result-count/result-correct-10-generated.webp",
+        "_shared/result-count/result-correct-2-generated.webp",
+        "_shared/result-count/result-correct-3-generated.webp",
+        "_shared/result-count/result-correct-4-generated.webp",
+        "_shared/result-count/result-correct-5-generated.webp",
+        "_shared/result-count/result-correct-6-generated.webp",
+        "_shared/result-count/result-correct-7-generated.webp",
+        "_shared/result-count/result-correct-8-generated.webp",
+        "_shared/result-count/result-correct-9-generated.webp",
+        "_shared/scoreboard/scoreboard-celebration-bg-generated.webp"
+      ]
+    },
+    "policy": {
+      "sha256": "12755163745e79738c823d22b6574b24e35a18a4245ff70c5d7dd204c43fbaf3",
+      "files": [
+        ".claude/skills/eduitit-mathmon-assets/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/SKILL.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/effect-design.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/verification.md",
+        ".claude/skills/eduitit-mathmon-lesson/references/vertical-calculation.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "LESSON_COMMONS.md",
+        "SERIES_CONTRACT.md",
+        "_shared/COMMON_RESOURCE_CONTRACT.md",
+        "_shared/brand/mathmon-brand-mark.json",
+        "_shared/contracts/component-registry.json",
+        "_shared/contracts/mathmon-4-2-official-24-v1.json",
+        "_shared/contracts/mathmon-browser-qa-execution-v2.json",
+        "_shared/contracts/mathmon-component-registry.json",
+        "_shared/contracts/mathmon-top-controls-v2.json",
+        "_shared/contracts/mathmon-unified-reward-v2.json",
+        "_shared/contracts/platform-component-registry.json",
+        "_shared/contracts/production-workflow.json",
+        "_shared/contracts/socialmon-component-registry.json",
+        "_shared/contracts/workspace-management.json",
+        "_shared/mathmon/MATHMON_ASSET_CONTRACT.md",
+        "_shared/monster-governance/MONSTER_UNIVERSE_CONTRACT.md",
+        "_shared/monster-governance/approvals/approvals.json",
+        "_shared/monster-governance/prompt-templates/character-master-v1.txt",
+        "_shared/monster-governance/registry/adoption-baseline.json",
+        "_shared/monster-governance/registry/legacy-species-reservations.json",
+        "_shared/monster-governance/schemas/approval-record.schema.json",
+        "_shared/monster-governance/schemas/candidate-brief.schema.json",
+        "_shared/monster-governance/schemas/character-governance-link.schema.json",
+        "_shared/monster-governance/schemas/generation-run.schema.json",
+        "_shared/monster-governance/schemas/mathmon-character-roster-v1.schema.json",
+        "_shared/monster-governance/schemas/registry.schema.json",
+        "_shared/monster-governance/schemas/socialmon-character-roster-v2.schema.json",
+        "_shared/monster-governance/schemas/socialmon-render-profile-v1.schema.json",
+        "_shared/monster-governance/schemas/subject-profile.schema.json",
+        "_shared/monster-governance/style-core.json",
+        "_shared/monster-governance/subject-profiles/mathmon.json",
+        "_shared/monster-governance/subject-profiles/socialmon-render-clay-vinyl-3d-v1.json",
+        "_shared/monster-governance/subject-profiles/socialmon.json",
+        "_shared/monster-governance/subjects.json"
+      ]
+    },
+    "harness": {
+      "sha256": "164f69fe686699e360c312c834f7e9817e4aa1f33b7847177d7676fd9fa6ea53",
+      "files": [
+        ".codex/hooks.json",
+        ".codex/hooks/mathmon-context.mjs",
+        ".codex/hooks/mathmon-hook-state.mjs",
+        ".codex/hooks/mathmon-stop-gate.mjs",
+        ".codex/hooks/prompt-content.mjs",
+        ".codex/hooks/socialmon-context.mjs",
+        ".codex/hooks/socialmon-hook-state.mjs",
+        ".codex/hooks/socialmon-stop-gate.mjs",
+        "scripts/ai-mart.mjs",
+        "scripts/build-lesson-report-sheets.mjs",
+        "scripts/build-monster-governance.mjs",
+        "scripts/build-monster-review-sheets.mjs",
+        "scripts/check-audio-assets.mjs",
+        "scripts/check-component-registry.mjs",
+        "scripts/check-lesson-contract.mjs",
+        "scripts/check-lesson-report-evidence.mjs",
+        "scripts/check-lesson-visual-contract.mjs",
+        "scripts/check-mathmon-brand-mark.mjs",
+        "scripts/check-mathmon-effect-containment.mjs",
+        "scripts/check-mathmon-preview.mjs",
+        "scripts/check-mathmon-vertical-calculation.mjs",
+        "scripts/check-monster-governance.mjs",
+        "scripts/check-production-workflow.mjs",
+        "scripts/check-ranking-disabled.mjs",
+        "scripts/check-result-panel-adoption.mjs",
+        "scripts/check-rule-consistency.mjs",
+        "scripts/check-run-randomness.mjs",
+        "scripts/check-stage-ratio.mjs",
+        "scripts/check-student-reward-language.mjs",
+        "scripts/compile-monster-prompt.mjs",
+        "scripts/fixtures/component-registry/duplicate-id.json",
+        "scripts/fixtures/component-registry/local-runtime-path.json",
+        "scripts/fixtures/component-registry/missing-compatibility-target.json",
+        "scripts/fixtures/component-registry/valid.json",
+        "scripts/fixtures/monster-governance/candidate-brief-valid.json",
+        "scripts/fixtures/result-panel-containment/axis-correct-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/baked-result-ui.json",
+        "scripts/fixtures/result-panel-containment/duplicate-panel-layer.json",
+        "scripts/fixtures/result-panel-containment/hidden-node-still-rendered.json",
+        "scripts/fixtures/result-panel-containment/panel-too-short.json",
+        "scripts/fixtures/result-panel-containment/retry-hitbox-outside-panel.json",
+        "scripts/fixtures/result-panel-containment/scene-baked-title-retry.json",
+        "scripts/fixtures/result-panel-containment/shared-axis-off-panel-center.json",
+        "scripts/fixtures/result-panel-containment/stage-cropped-at-user-viewport.json",
+        "scripts/fixtures/result-panel-containment/undersized-result-controls.json",
+        "scripts/fixtures/result-panel-containment/valid.json",
+        "scripts/fixtures/result-reward-dominance/internal-metric-leak.json",
+        "scripts/fixtures/result-reward-dominance/oversized-panel-tiny-reward.json",
+        "scripts/fixtures/result-reward-dominance/reward-hidden-by-panel.json",
+        "scripts/fixtures/result-reward-dominance/valid.json",
+        "scripts/fixtures/result-visual-integrity/README.md",
+        "scripts/fixtures/result-visual-integrity/baked-title-cropped.json",
+        "scripts/fixtures/result-visual-integrity/baked-title-missing.json",
+        "scripts/fixtures/result-visual-integrity/cropped-evidence.json",
+        "scripts/fixtures/result-visual-integrity/duplicate-title-layer.json",
+        "scripts/fixtures/result-visual-integrity/title-gap-nine.json",
+        "scripts/fixtures/result-visual-integrity/title-outside-panel.json",
+        "scripts/fixtures/result-visual-integrity/title-overlap-metric.json",
+        "scripts/fixtures/result-visual-integrity/title-too-small.json",
+        "scripts/fixtures/result-visual-integrity/title-yellow-only.json",
+        "scripts/fixtures/result-visual-integrity/valid.json",
+        "scripts/fixtures/student-reward-language/aria-internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/generic-change-label.json",
+        "scripts/fixtures/student-reward-language/internal-metric-leak.json",
+        "scripts/fixtures/student-reward-language/missing-change-label.json",
+        "scripts/fixtures/student-reward-language/valid-highest-tier.json",
+        "scripts/fixtures/student-reward-language/valid-semantic-delta.json",
+        "scripts/fixtures/student-reward-language/valid-tier-delta-next.json",
+        "scripts/fixtures/student-reward-language/wrong-highest-tier.json",
+        "scripts/fixtures/student-reward-language/wrong-next-tier.json",
+        "scripts/fixtures/tutorial-poster-contract/css-action-surface.json",
+        "scripts/fixtures/tutorial-poster-contract/css-composed-panel.json",
+        "scripts/fixtures/tutorial-poster-contract/generated-action-hitbox-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/non-generated-poster.json",
+        "scripts/fixtures/tutorial-poster-contract/poster-card-mismatch.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-generated-actions.json",
+        "scripts/fixtures/tutorial-poster-contract/valid-scene-baked.json",
+        "scripts/fixtures/tutorial-poster-contract/visible-html-overlay.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-purpose-order.json",
+        "scripts/fixtures/tutorial-poster-contract/wrong-standard.json",
+        "scripts/lib/component-registry.mjs",
+        "scripts/lib/load-lesson-source-model.mjs",
+        "scripts/lib/mathmon-delivery-gate.mjs",
+        "scripts/lib/mathmon-fast-delivery.mjs",
+        "scripts/lib/mathmon-layout-qa.mjs",
+        "scripts/lib/mathmon-qa-viewports.mjs",
+        "scripts/lib/mathmon-repeated-element-qa.mjs",
+        "scripts/lib/mathmon-top-controls-v2.mjs",
+        "scripts/lib/monster-governance.mjs",
+        "scripts/lib/production-workflow.mjs",
+        "scripts/lib/public-mathmon-paths.mjs",
+        "scripts/lib/result-content-scale-policy.mjs",
+        "scripts/lib/result-internal-metric-policy.mjs",
+        "scripts/lib/result-reward-dominance.mjs",
+        "scripts/lib/run-lesson5-model-qa.mjs",
+        "scripts/lib/run-lesson5-simulation.mjs",
+        "scripts/lib/student-reward-language.mjs",
+        "scripts/lib/tutorial-poster-contract.mjs",
+        "scripts/qa-engine-unit3-circle-pattern-source.mjs",
+        "scripts/qa-engine-unit3-compass-source.mjs",
+        "scripts/qa-engine-unit3-double-bridge-source.mjs",
+        "scripts/qa-engine-unit3-target-source.mjs",
+        "scripts/qa-engine-unit4-pizza-source.mjs",
+        "scripts/qa-engine-unit4-scoop-source.mjs",
+        "scripts/qa-engine-unit4-sorter-source.mjs",
+        "scripts/qa-engine-unit4-tug-source.mjs",
+        "scripts/qa-engine-water-fill-flow.mjs",
+        "scripts/qa-lesson-flow.mjs",
+        "scripts/qa-lesson-model.mjs",
+        "scripts/qa-lesson2-check-lock.mjs",
+        "scripts/qa-lesson2-divide-farm.mjs",
+        "scripts/qa-lesson2-elevator.mjs",
+        "scripts/qa-lesson2-star-pickup.mjs",
+        "scripts/qa-lesson3-map-effects.mjs",
+        "scripts/qa-lesson3-math-model.mjs",
+        "scripts/qa-lesson3-result-fullscene.mjs",
+        "scripts/qa-lesson3-step-feedback.mjs",
+        "scripts/qa-lesson5-drink-order-model.mjs",
+        "scripts/qa-lesson5-flow.mjs",
+        "scripts/qa-lesson5-package-weight-click-guards.mjs",
+        "scripts/qa-lesson5-package-weight-model.mjs",
+        "scripts/qa-lesson5-scale-balance-model.mjs",
+        "scripts/qa-lesson5-water-fill-model.mjs",
+        "scripts/qa-mathmon-audio-smoke.mjs",
+        "scripts/qa-mathmon-layout.mjs",
+        "scripts/qa-mathmon-repeated-element.mjs",
+        "scripts/qa-mathmon-result-sweep.mjs",
+        "scripts/qa-mathmon-reward-percent.mjs",
+        "scripts/qa-result-visual-integrity-fixtures.mjs",
+        "scripts/qa-run-randomness-browser.mjs",
+        "scripts/qa-student-reward-language-browser.mjs",
+        "scripts/qa-unit1-result-screens.mjs",
+        "scripts/qa-unit3-reported-text-regressions.mjs",
+        "scripts/qa-unit6-browser.mjs",
+        "scripts/qa-unit6-data.mjs",
+        "scripts/sync-lesson-report-evidence.mjs",
+        "scripts/test-ai-mart.mjs",
+        "scripts/test-component-registry.mjs",
+        "scripts/test-mathmon-delivery-gate.mjs",
+        "scripts/test-mathmon-fast-delivery.mjs",
+        "scripts/test-mathmon-grade4-decimal-add-charge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-compare-runway-phase-a.mjs",
+        "scripts/test-mathmon-grade4-decimal-sub-dive-phase-a.mjs",
+        "scripts/test-mathmon-grade4-diagonal-laser-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-add-bridge-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-piece-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-regroup-vault-view.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-model.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-phase-a.mjs",
+        "scripts/test-mathmon-grade4-fraction-sub-garden-view.mjs",
+        "scripts/test-mathmon-grade4-graph-choice-studio-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-builder-phase-a.mjs",
+        "scripts/test-mathmon-grade4-line-graph-signal-phase-a.mjs",
+        "scripts/test-mathmon-grade4-official-contract.mjs",
+        "scripts/test-mathmon-grade4-point-move-control-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-detector-phase-a.mjs",
+        "scripts/test-mathmon-grade4-polygon-mosaic-phase-a.mjs",
+        "scripts/test-mathmon-grade4-regular-polygon-crown-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-flip-mirror-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-rotate-pattern-phase-a.mjs",
+        "scripts/test-mathmon-grade4-shape-slide-delivery-phase-a.mjs",
+        "scripts/test-mathmon-grade4-trend-detective-phase-a.mjs",
+        "scripts/test-mathmon-hooks.mjs",
+        "scripts/test-mathmon-layout-qa.mjs",
+        "scripts/test-mathmon-qa-viewports.mjs",
+        "scripts/test-mathmon-repeated-element-qa.mjs",
+        "scripts/test-mathmon-reward-policy.mjs",
+        "scripts/test-mathmon-series-expansion.mjs",
+        "scripts/test-mathmon-top-controls-v2.mjs",
+        "scripts/test-monster-governance.mjs",
+        "scripts/test-production-workflow.mjs",
+        "scripts/test-public-release-grade4.mjs",
+        "scripts/test-result-content-scale-policy.mjs",
+        "scripts/test-result-internal-metric-policy.mjs",
+        "scripts/test-result-panel-containment.mjs",
+        "scripts/test-result-reward-dominance.mjs",
+        "scripts/test-student-reward-language.mjs",
+        "scripts/test-tutorial-poster-contract.mjs",
+        "scripts/test-unit2-three-digit-division.mjs",
+        "scripts/verify-mathmon-delivery.mjs"
+      ]
+    }
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "canonicalName": "desktop",
+      "width": 1280,
+      "height": 800,
+      "dpr": 1,
+      "regressionNames": [
+        "desktop"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 17,
+      "sheet": "screenshots/report-flow-desktop-contact-sheet.png",
+      "sheetSha256": "d121855c061d8e39ac4fd9a26bbed079ae262df9cf5f44e01edf00253fc50537",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-desktop-01-cover.png",
+          "sha256": "338ef6a704fc0f199f59e7be01b800ad3eac13c298ece0d0e187f82d8fbbf414"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-02-settings.png",
+          "sha256": "c02433962bc3cfd0b45d73ad65ccc3c4f21b4f2c0a6a0da0886ef636798c4bb5"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-03-tutorial-1.png",
+          "sha256": "de683d1a57003a7289a09219d623a1c92b5169cb199a05bffeb7348b895ee4c1"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-04-tutorial-2.png",
+          "sha256": "2e849b038605d1272ffa423f08d00460e87de0d56bf596c3c3c6b86025b2a333"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05-play-step1.png",
+          "sha256": "d2e23242015043a79e4d0a52d73d57325cf6f741eb22da18f3184ccda1d7d738"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05n-next-problem-clean.png",
+          "sha256": "7953bee1874e8dac04e77518a53959bfb87f8c58e375308dba7fbb472a0ac7cb"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-05b-play-wrong.png",
+          "sha256": "01bb711971b0370644430d44e05a4f61fb59e07a8bcb09e3648caed61e9edcf0"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-06-confirm.png",
+          "sha256": "6380284c0ac286f39aac1148bd9c80e4649b6f10e9784ef05f6e7eed92635500"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07-reward-closed.png",
+          "sha256": "8a379b47bebf0c737e417db5527a0e2ca18456763dc569c0fb539347dea7558e"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-07b-reward-open.png",
+          "sha256": "6bc2a11b4b9e9822eba137381c5deef841b84722006f82bccce51e5398b9fbe3"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08-result.png",
+          "sha256": "b263b4ff135d405087e2eade033026927cbb4e5a40c4a78a31fdfa3dea4614f5"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-first-runway.png",
+          "sha256": "9e40b65abb0a3a7a484727f073d8dedd713ad60abeea25a33d4b81f637122a79"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-second-runway.png",
+          "sha256": "299af4a23fe32eb022a5f44e199261895182fd7de268b0f870e8414d8feef647"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-third-runway.png",
+          "sha256": "1816d1f7379d74735ac4ccd3538e8b1282b788331f374e4e8e477db3960cf99e"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-fourth-runway.png",
+          "sha256": "44ccf18895ff6f588d4c8eeb45387f61d0971bf1e62ab979bb65245912cd51b4"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-fifth-runway.png",
+          "sha256": "2bffb80621df9284965b5af357648416f19c747f7698cc4f75c943ea893e5c76"
+        },
+        {
+          "path": "screenshots/engine-flow-desktop-08a-result-sixth-runway.png",
+          "sha256": "c70b422f171b69665029a86de71a41d736af7321f1ee7ed767e643491907c21d"
+        }
+      ]
+    },
+    {
+      "name": "tablet-landscape",
+      "canonicalName": "tablet-landscape",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "regressionNames": [
+        "tablet-landscape"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 17,
+      "sheet": "screenshots/report-flow-tablet-landscape-contact-sheet.png",
+      "sheetSha256": "b92feb0880b9a008b0d2344809fbefab11b4adc4af9134fde2257da9d085b4b6",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-01-cover.png",
+          "sha256": "28ffe589bd5d6b9965c910558a5af951831348d9897ebe60e8a627881f1522f7"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-02-settings.png",
+          "sha256": "b89a7b600e4cc83d321af4443cb68b016fe82ae71c737f61c5f088922d4e9de8"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-03-tutorial-1.png",
+          "sha256": "4abadf5648356c8890099adb32e12a25464ff90f58ae0d13c682df7a2b2d09f2"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-04-tutorial-2.png",
+          "sha256": "6a9e4af10ed88ec312304d066e9526e20fc18fa08e7132998c98066fb777d31b"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05-play-step1.png",
+          "sha256": "9fd2ea6ec27e3f0272264c15fee34d66a517c862677d1d4b9b3b52f3b656ccc0"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05n-next-problem-clean.png",
+          "sha256": "be46cef3ce172b034be727e69c543b3adae207d5f9dd45e2a244c74e4d3324e3"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-05b-play-wrong.png",
+          "sha256": "959e97096a4f325e959bacc6e1d7106c61105c22fc546430487c1b666e4cfcd2"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-06-confirm.png",
+          "sha256": "74301ddc1aa2e37962edcef2fcd45c3173dea601ef2f6d5a480c6a66eba8ecfb"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07-reward-closed.png",
+          "sha256": "4cb316254628895fb6d05d3e09eaafe18f6a0765cdbeeb9d95cfd216c3af2e5f"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-07b-reward-open.png",
+          "sha256": "ba8f028a27367c98203c079a79f8eb3f5d7a56de3a97e8e048e0a6b267d1a648"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08-result.png",
+          "sha256": "dc69768915955e66f46afffb84896b28a93a96f5304130541649faaef8b7b2e6"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-first-runway.png",
+          "sha256": "e462db887073008b0ca0f2743e233057a3dbe56c9858fd8b4798489630e6112a"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-second-runway.png",
+          "sha256": "54215cfdc3560452bab596f7be4d0f04dd6258360c81fb021b7a154eac04f933"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-third-runway.png",
+          "sha256": "044989ae9b427720a0f4c5135cd12bd44178b7e93a886c49ed27500b8bca6a21"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-fourth-runway.png",
+          "sha256": "58b3738c2753072016805496101afee1aa80d927eeaa67511eda44be8bc1cdb1"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-fifth-runway.png",
+          "sha256": "391e11759811ede21b29cf65dac0940dae8e2835f2436b255c10aa176bbbd831"
+        },
+        {
+          "path": "screenshots/engine-flow-tablet-landscape-08a-result-sixth-runway.png",
+          "sha256": "76bf53843913ea70d44ba75da387862c6632d0273d36ee1baef2d1ecef614eab"
+        }
+      ]
+    },
+    {
+      "name": "reported-design-feedback-1079x842",
+      "canonicalName": "reported-design-feedback-1079x842",
+      "width": 1079,
+      "height": 842,
+      "dpr": 1,
+      "regressionNames": [
+        "reported-design-feedback-1079x842"
+      ],
+      "aliases": [],
+      "behaviorKeys": [],
+      "capture": {
+        "mode": "full-flow"
+      },
+      "screenshotCount": 17,
+      "sheet": "screenshots/report-flow-reported-design-feedback-1079x842-contact-sheet.png",
+      "sheetSha256": "66158f5116c86c9c580be40173c0d45eabd7c657fe15c841a9fa45485b803d0c",
+      "screenshots": [
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-01-cover.png",
+          "sha256": "a7c56f9f4b0b84ad060db224f5ee50c34a697b0e88002ea7857cb4f0594da9d8"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-02-settings.png",
+          "sha256": "257cc71f69bd86f79c9c3a70fc878f85761134b087ca2969192b7db2e15d9768"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-03-tutorial-1.png",
+          "sha256": "1bcedff619f0c39ac0e51e90f1e397b90ea074c4e28f1418d0d0b97b1d146b55"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-04-tutorial-2.png",
+          "sha256": "ac316c26d016112013a4593180da2bd7ab5927d8a41245ed61b4accb25993e53"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05-play-step1.png",
+          "sha256": "0bcf03848491a504a6272fbb9f10008ba2b94fdc0ba74cef9fc1e2e13196b805"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05n-next-problem-clean.png",
+          "sha256": "8874f0b6ea668ad3291c79d1dad6b40b21edd1b100eadd980942e3dc68560284"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-05b-play-wrong.png",
+          "sha256": "dab66eab7db7db3a1f788c117da5f7318c40a26965f60a41564398fc54af3e2e"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-06-confirm.png",
+          "sha256": "0df3f1c104536fb6ce50b1892383c9f32f7c06f2db9b1916d919eba4ad32394d"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07-reward-closed.png",
+          "sha256": "9b1e0173acf77d9909307d695beee75cb6f9d75a54ab7e276b65838b91c285bf"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-07b-reward-open.png",
+          "sha256": "208d2988f9aa3e32675e2fe2ade75d68d0cfca7e915d16f06f9c2ab53181be11"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08-result.png",
+          "sha256": "6468394ed870822ed2679c0a77aceb6313d01599269b1c656b22199d682ff87d"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-first-runway.png",
+          "sha256": "59f89cd01bf8f78406a0dcde11460ca9c4de53d3593025bce5120a7ff010ffcb"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-second-runway.png",
+          "sha256": "d6dbf4322233bb5a4404ec92d581e2a2f827bfecf32e71e7fff46c5c7282155a"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-third-runway.png",
+          "sha256": "70d106a4dd969921fe59a31fc8828745e766cd8075edb1f1ba68c3aac65ff5b1"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-fourth-runway.png",
+          "sha256": "4064f5e8c2efbadc4386411ba03d1bc3d3731ac1d9959fb887a264453865c11b"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-fifth-runway.png",
+          "sha256": "2e40cfcede97eafdfa38c6e32a1ef8dbd5a8bcfa3822fdbfd466e196c512e998"
+        },
+        {
+          "path": "screenshots/engine-flow-reported-design-feedback-1079x842-08a-result-sixth-runway.png",
+          "sha256": "7d221ab8200537e3fba79b3c0da5264801e9d9316a92fa3d6d0cc3b5317c615b"
+        }
+      ]
+    }
+  ]
+}
