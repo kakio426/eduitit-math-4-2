@@ -102,6 +102,7 @@ export function assertLessonLocalReferences(manifest, filePath, text) {
   const files = new Set(manifest.files.map(file => file.path));
   for (let reference of references) {
     if (!reference || reference.startsWith("#")) continue;
+    if (reference === "data:,") continue;
     if (/^data:image\/svg\+xml[;,]/iu.test(reference) && !/;base64,/iu.test(reference)) continue;
     assert(!/^(?:[a-z][a-z0-9+.-]*:|\/|\\)/iu.test(reference), "Selected lesson reference is external or site-wide");
     assert(!reference.includes("${") && !reference.includes("\\"), "Unresolved dynamic/escaped selected lesson reference");
@@ -220,8 +221,30 @@ export async function readLiveRelease({repository, ...options} = {}) {
   assert(manifest.sourceRevision === identity.sourceRevision && manifest.targetFileSetSha256 === control.targetFileSetSha256, "Live manifests disagree");
   return {identity, manifest, control};
 }
+export async function verifyLegacyLiveBaseline({repository, manifest, artifact, identity, fetchImpl = fetch, signal} = {}) {
+  validateReleaseManifest(manifest); deploymentIdentity(identity);
+  assert(manifest.repository === repository && identity.transactionId === null
+    && identity.deploymentId === `legacy:${manifest.targetFileSetSha256}`
+    && identity.artifactSha256 === artifact.sha256 && identity.sourceRevision === manifest.sourceRevision
+    && artifact.targetFileSetSha256 === manifest.targetFileSetSha256, "Legacy baseline identity is not bound to exact preserved bytes");
+  const base = `https://kakio426.github.io/${repository.split("/")[1]}/`;
+  const absent = await fetchImpl(`${base}${DEPLOYMENT_MANIFEST}?_pages_check=${Date.now()}`, {redirect: "error", signal});
+  assert(absent.status === 404, "Legacy transition refused: a managed deployment identity already exists or cannot be inspected");
+  let cursor = 0;
+  await Promise.all(Array.from({length: Math.min(8, manifest.files.length)}, async () => {
+    while (cursor < manifest.files.length) {
+      const file = manifest.files[cursor++], url = new URL(file.path, base); url.searchParams.set("_pages_check", String(Date.now()));
+      const response = await fetchImpl(url, {redirect: "error", signal, headers: {"Cache-Control": "no-cache"}});
+      assert(response.ok && response.body, `Legacy baseline live file is unavailable: ${file.path}`);
+      let count = 0; const digest = createHash("sha256");
+      for await (const chunk of response.body) {signal?.throwIfAborted(); count += chunk.length; assert(count <= file.bytes, "Legacy live file size changed"); digest.update(chunk);}
+      assert(count === file.bytes && digest.digest("hex") === file.sha256, `Legacy live baseline hash differs: ${file.path}`);
+    }
+  }));
+  return {identity: deploymentIdentity(identity), manifest, control: null, legacyBaseline: true};
+}
 export function validateReceiverRequest(request, {repository, operationId, now = Date.now()} = {}) {
-  exactKeys(request, ["standard", "repository", "operationId", "transactionId", "purpose", "artifact", "expectedIdentity", "releaseSetSha256", "approvedAt", "expiresAt"]);
+  exactKeys(request, ["standard", "repository", "operationId", "transactionId", "purpose", "artifact", "expectedIdentity", "releaseSetSha256", "approvedAt", "expiresAt", ...(request.legacyBaseline ? ["legacyBaseline"] : [])]);
   assert(request.standard === "eduitit-pages-receiver-request-v1" && RECEIVER_REPOSITORIES.includes(repository) && request.repository === repository
     && OP.test(operationId) && request.operationId === operationId && /^[A-Za-z0-9_-]{1,100}$/u.test(request.transactionId)
     && ["deploy", "rollback"].includes(request.purpose), "Receiver request scope mismatch");
@@ -229,8 +252,26 @@ export function validateReceiverRequest(request, {repository, operationId, now =
   assert(SHA.test(request.releaseSetSha256) && Date.parse(request.approvedAt) <= now && Date.parse(request.expiresAt) > now, "Expired/missing final release-set approval");
   exactKeys(request.artifact, ["sha256", "bytes", "siteBytes", "targetFileSetSha256", "sourceRevision"]);
   deploymentIdentity(request.expectedIdentity);
+  if (request.legacyBaseline) {
+    assert(request.purpose === "deploy" && request.expectedIdentity.transactionId === null && request.expectedIdentity.deploymentId.startsWith("legacy:"), "Legacy baseline is only valid for a first approved deployment");
+    exactKeys(request.legacyBaseline, ["sha256", "bytes", "siteBytes", "targetFileSetSha256", "sourceRevision"]);
+    assert(request.legacyBaseline.sha256 === request.expectedIdentity.artifactSha256
+      && request.legacyBaseline.sourceRevision === request.expectedIdentity.sourceRevision
+      && request.expectedIdentity.deploymentId === `legacy:${request.legacyBaseline.targetFileSetSha256}`, "Legacy rollback descriptor differs from expected identity");
+  } else assert(!request.expectedIdentity.deploymentId.startsWith("legacy:"), "First deployment needs its approved rollback baseline archive");
   if (request.purpose === "rollback") assert(request.expectedIdentity.transactionId === request.transactionId, "Rollback cannot overwrite another transaction");
   return request;
+}
+
+async function publicReleaseAsset(repository, asset, signal) {
+  let url = `https://api.github.com/repos/${repository}/releases/assets/${asset.id}`, response;
+  for (let hop = 0; hop < 4; hop++) {
+    const parsed = new URL(url); assert(["api.github.com", "release-assets.githubusercontent.com", "objects.githubusercontent.com"].includes(parsed.hostname) && parsed.protocol === "https:", "Release download redirect escaped allowlist");
+    response = await fetch(url, {redirect: "manual", signal, headers: {Accept: "application/octet-stream"}});
+    if (![301, 302, 303, 307, 308].includes(response.status)) break;
+    url = new URL(response.headers.get("location"), url).href;
+  }
+  assert(response?.ok && response.body, "Public release asset download failed"); return response.body;
 }
 
 async function cli() {
@@ -266,7 +307,15 @@ async function cli() {
   assert(release.immutable === true && release.draft === false && release.author?.login === RECEIVER_APP_ACTOR, "Approved immutable App release required");
   const requestBytes = Buffer.from(release.body || ""); assert(requestBytes.length <= 16_384 && sha256(requestBytes) === requestSha, "Immutable public request SHA mismatch");
   const request = validateReceiverRequest(JSON.parse(requestBytes), {repository, operationId});
-  const live = await readLiveRelease({repository, signal}); assert(same(live.identity, deploymentIdentity(request.expectedIdentity)), "Expected live deployment identity changed");
+  let live;
+  if (request.legacyBaseline) {
+    const baselineAssets = release.assets?.filter(asset => asset.name === "baseline.tar.gz") || [];
+    assert(baselineAssets.length === 1 && baselineAssets[0].digest === `sha256:${request.legacyBaseline.sha256}`
+      && baselineAssets[0].size === request.legacyBaseline.bytes, "Approved immutable baseline archive is missing");
+    const baseline = await verifyReleaseArchive({archive: await publicReleaseAsset(repository, baselineAssets[0], signal), artifact: request.legacyBaseline, signal, enforceLessonIsolation: false});
+    live = await verifyLegacyLiveBaseline({repository, manifest: baseline.manifest, artifact: request.legacyBaseline, identity: request.expectedIdentity, signal});
+  } else live = await readLiveRelease({repository, signal});
+  assert(same(live.identity, deploymentIdentity(request.expectedIdentity)), "Expected live deployment identity changed");
   const payload = release.assets?.filter(asset => asset.name === "runtime.tar.gz") || [];
   assert(payload.length === 1 && payload[0].state === "uploaded" && payload[0].size === request.artifact.bytes
     && payload[0].digest === `sha256:${request.artifact.sha256}`, "Immutable release payload metadata mismatch");
