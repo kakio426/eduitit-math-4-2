@@ -1,0 +1,83 @@
+name: Approved Pages receiver
+run-name: pages:${{ inputs.mode }}:${{ inputs.operation_id }}
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Non-deploy preflight is the default; deploy requires an approved immutable App release
+        type: choice
+        options: [preflight, deploy]
+        default: preflight
+        required: true
+      operation_id:
+        description: Unique operation identifier; never reuse a deployment operation
+        type: string
+        required: true
+      request_sha256:
+        description: SHA-256 of the immutable public release request (empty for preflight)
+        type: string
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+  queue: max
+jobs:
+  preflight:
+    if: inputs.mode == 'preflight'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+      pages: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/pages/pages-receiver.mjs
+          sparse-checkout-cone-mode: false
+      - name: Verify non-deploy environment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node .github/pages/pages-receiver.mjs preflight
+  delivery:
+    if: inputs.mode == 'deploy'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/pages/pages-receiver.mjs
+          sparse-checkout-cone-mode: false
+      - name: Verify approved immutable payload and expected live identity
+        id: prepare
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_OPERATION_ID: ${{ inputs.operation_id }}
+          PAGES_REQUEST_SHA256: ${{ inputs.request_sha256 }}
+        run: node .github/pages/pages-receiver.mjs prepare
+      - name: Upload verified Pages artifact
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ steps.prepare.outputs.runtime_path }}
+          retention-days: 1
+      - name: Recheck expected live identity inside serialized job
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_OPERATION_ID: ${{ inputs.operation_id }}
+          PAGES_REQUEST_SHA256: ${{ inputs.request_sha256 }}
+        run: node .github/pages/pages-receiver.mjs recheck
+      - name: Publish Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
