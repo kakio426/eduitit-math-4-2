@@ -7,6 +7,7 @@ import path from "node:path";
 import {Readable} from "node:stream";
 import {fileURLToPath} from "node:url";
 import {createGunzip} from "node:zlib";
+import {setTimeout as wait} from "node:timers/promises";
 
 export const RECEIVER_REPOSITORIES = Object.freeze(["kakio426/eduitit-math-3-2", "kakio426/eduitit-math-4-2"]);
 export const RECEIVER_APP_ACTOR = "ai-mart-pages-kakio426[bot]";
@@ -221,6 +222,29 @@ export async function readLiveRelease({repository, ...options} = {}) {
   assert(manifest.sourceRevision === identity.sourceRevision && manifest.targetFileSetSha256 === control.targetFileSetSha256, "Live manifests disagree");
   return {identity, manifest, control};
 }
+export async function verifyLiveManifestFiles({repository, manifest, fetchImpl = fetch, signal} = {}) {
+  validateReleaseManifest(manifest);
+  assert(manifest.repository === repository, "Live manifest repository differs");
+  const base = `https://kakio426.github.io/${repository.split("/")[1]}/`;
+  let cursor = 0;
+  await Promise.all(Array.from({length: Math.min(32, manifest.files.length)}, async () => {
+    while (cursor < manifest.files.length) {
+      const file = manifest.files[cursor++], url = new URL(file.path, base); url.searchParams.set("_pages_check", String(Date.now()));
+      let response;
+      for (let attempt = 0; attempt < 3; attempt++) {
+        response = await fetchImpl(url, {redirect: "error", signal, headers: {"Cache-Control": "no-cache"}});
+        if (response.ok || ![404, 408, 429, 500, 502, 503, 504].includes(response.status) || attempt === 2) break;
+        await response.body?.cancel();
+        await wait(250 * (attempt + 1), undefined, {signal});
+      }
+      assert(response.ok && response.body, `Live baseline file is unavailable: ${file.path} (HTTP ${response.status})`);
+      let count = 0; const digest = createHash("sha256");
+      for await (const chunk of response.body) {signal?.throwIfAborted(); count += chunk.length; assert(count <= file.bytes, "Live file size changed"); digest.update(chunk);}
+      assert(count === file.bytes && digest.digest("hex") === file.sha256, `Live baseline SHA hash differs: ${file.path}`);
+    }
+  }));
+  return {verified: true, targetFileSetSha256: manifest.targetFileSetSha256};
+}
 export async function verifyLegacyLiveBaseline({repository, manifest, artifact, identity, fetchImpl = fetch, signal} = {}) {
   validateReleaseManifest(manifest); deploymentIdentity(identity);
   assert(manifest.repository === repository && identity.transactionId === null
@@ -230,17 +254,7 @@ export async function verifyLegacyLiveBaseline({repository, manifest, artifact, 
   const base = `https://kakio426.github.io/${repository.split("/")[1]}/`;
   const absent = await fetchImpl(`${base}${DEPLOYMENT_MANIFEST}?_pages_check=${Date.now()}`, {redirect: "error", signal});
   assert(absent.status === 404, "Legacy transition refused: a managed deployment identity already exists or cannot be inspected");
-  let cursor = 0;
-  await Promise.all(Array.from({length: Math.min(8, manifest.files.length)}, async () => {
-    while (cursor < manifest.files.length) {
-      const file = manifest.files[cursor++], url = new URL(file.path, base); url.searchParams.set("_pages_check", String(Date.now()));
-      const response = await fetchImpl(url, {redirect: "error", signal, headers: {"Cache-Control": "no-cache"}});
-      assert(response.ok && response.body, `Legacy baseline live file is unavailable: ${file.path}`);
-      let count = 0; const digest = createHash("sha256");
-      for await (const chunk of response.body) {signal?.throwIfAborted(); count += chunk.length; assert(count <= file.bytes, "Legacy live file size changed"); digest.update(chunk);}
-      assert(count === file.bytes && digest.digest("hex") === file.sha256, `Legacy live baseline hash differs: ${file.path}`);
-    }
-  }));
+  await verifyLiveManifestFiles({repository, manifest, fetchImpl, signal});
   return {identity: deploymentIdentity(identity), manifest, control: null, legacyBaseline: true};
 }
 export function validateReceiverRequest(request, {repository, operationId, now = Date.now()} = {}) {
