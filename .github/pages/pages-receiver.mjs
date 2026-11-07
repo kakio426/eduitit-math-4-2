@@ -227,6 +227,7 @@ export async function verifyLiveManifestFiles({repository, manifest, fetchImpl =
   assert(manifest.repository === repository, "Live manifest repository differs");
   const base = `https://kakio426.github.io/${repository.split("/")[1]}/`;
   let cursor = 0;
+  const archiveOnlyControlFiles = [];
   await Promise.all(Array.from({length: Math.min(32, manifest.files.length)}, async () => {
     while (cursor < manifest.files.length) {
       const file = manifest.files[cursor++], url = new URL(file.path, base); url.searchParams.set("_pages_check", String(Date.now()));
@@ -237,13 +238,21 @@ export async function verifyLiveManifestFiles({repository, manifest, fetchImpl =
         await response.body?.cancel();
         await wait(250 * (attempt + 1), undefined, {signal});
       }
+      // upload-pages-artifact v4 omits dotfiles. .nojekyll is the sole allowed
+      // control dotfile, retained and hash-verified in the immutable archive.
+      // A 404 for an actual runtime file remains a hard failure.
+      if (file.path === ".nojekyll" && response.status === 404) {
+        await response.body?.cancel();
+        archiveOnlyControlFiles.push({path:file.path,bytes:file.bytes,sha256:file.sha256,reason:"pages-artifact-dotfile-exclusion"});
+        continue;
+      }
       assert(response.ok && response.body, `Live baseline file is unavailable: ${file.path} (HTTP ${response.status})`);
       let count = 0; const digest = createHash("sha256");
       for await (const chunk of response.body) {signal?.throwIfAborted(); count += chunk.length; assert(count <= file.bytes, "Live file size changed"); digest.update(chunk);}
       assert(count === file.bytes && digest.digest("hex") === file.sha256, `Live baseline SHA hash differs: ${file.path}`);
     }
   }));
-  return {verified: true, targetFileSetSha256: manifest.targetFileSetSha256};
+  return {verified: true, targetFileSetSha256: manifest.targetFileSetSha256, archiveOnlyControlFiles};
 }
 export async function verifyLegacyLiveBaseline({repository, manifest, artifact, identity, fetchImpl = fetch, signal} = {}) {
   validateReleaseManifest(manifest); deploymentIdentity(identity);
